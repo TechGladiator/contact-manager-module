@@ -32,7 +32,6 @@ Ext.define('ContactManagerModule.view.main.Main', {
             xtype: 'panel',
             id: 'mainPanel',
             scrollable: true,
-            title: 'Import Contacts and Organizations',
             layout: {
                 type: 'vbox',
                 align: 'center',
