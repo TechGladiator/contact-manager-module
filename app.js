@@ -20,5 +20,6 @@ Ext.Loader.setConfig({
 
 
 Ext.application({
-    name: 'ContactManagerModule'
+    name: 'ContactManagerModule',
+    title: 'Contact Manager Module'
 });

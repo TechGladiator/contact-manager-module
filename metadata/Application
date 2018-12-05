@@ -6,10 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "ContactManagerModule"
+        "name": "ContactManagerModule",
+        "title": "Contact Manager Module"
     },
     "configAlternates": {
-        "name": "string"
+        "name": "string",
+        "title": "string"
     },
     "name": "Application",
     "designerId": "application"
