@@ -9,8 +9,7 @@
         "name": "ContactManagerModule",
         "title": "Contact Manager Module",
         "views": [
-            "main.Main",
-            "import.FileImport"
+            "main.Main"
         ]
     },
     "configAlternates": {

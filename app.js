@@ -21,8 +21,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
-        'main.Main',
-        'import.FileImport'
+        'main.Main'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',
