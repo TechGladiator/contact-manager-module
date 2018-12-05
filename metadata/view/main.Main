@@ -8,15 +8,43 @@
     "userConfig": {
         "designer|initialView": true,
         "designer|userAlias": "main.main",
-        "designer|userClassName": "main.Main"
+        "designer|userClassName": "main.Main",
+        "layout": "fit"
     },
     "configAlternates": {
         "designer|initialView": "boolean",
         "designer|userAlias": "string",
-        "designer|userClassName": "string"
+        "designer|userClassName": "string",
+        "layout": "string"
     },
     "name": "MyViewport",
     "designerId": "8c6b6bff-d1be-4cf4-9f2a-f3a53392152d",
     "viewControllerInstanceId": "a94890e7-f4af-4bb0-bee4-e22d813e6b4f",
-    "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce"
+    "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "id": "importPanel",
+                "layout": "vbox",
+                "scrollable": true
+            },
+            "configAlternates": {
+                "container|align": "string",
+                "container|pack": "string",
+                "id": "string",
+                "layout": "string",
+                "scrollable": "auto"
+            },
+            "name": "MyPanel",
+            "designerId": "6bf9c52f-66b7-4361-9c3b-9a004aed3b8c"
+        }
+    ]
 }

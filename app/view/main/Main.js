@@ -18,11 +18,26 @@ Ext.define('ContactManagerModule.view.main.Main', {
     alias: 'widget.main.main',
 
     requires: [
-        'ContactManagerModule.view.main.MainViewModel'
+        'ContactManagerModule.view.main.MainViewModel',
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
         type: 'main.main'
-    }
+    },
+    layout: 'fit',
+
+    items: [
+        {
+            xtype: 'panel',
+            id: 'importPanel',
+            scrollable: true,
+            layout: {
+                type: 'vbox',
+                align: 'center',
+                pack: 'center'
+            }
+        }
+    ]
 
 });
