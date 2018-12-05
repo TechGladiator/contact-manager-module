@@ -1,0 +1,10 @@
+/build
+/ext
+/packages
+/sass
+.architect
+bootstrap.*
+build.xml
+classic.json*
+modern.json*
+.sencha
