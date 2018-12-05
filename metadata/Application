@@ -7,11 +7,15 @@
     "codeClass": null,
     "userConfig": {
         "name": "ContactManagerModule",
-        "title": "Contact Manager Module"
+        "title": "Contact Manager Module",
+        "views": [
+            "main.Main"
+        ]
     },
     "configAlternates": {
         "name": "string",
-        "title": "string"
+        "title": "string",
+        "views": "typedarray"
     },
     "name": "Application",
     "designerId": "application"
