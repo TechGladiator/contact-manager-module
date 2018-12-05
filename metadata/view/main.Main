@@ -34,14 +34,16 @@
                 "container|pack": "center",
                 "id": "mainPanel",
                 "layout": "vbox",
-                "scrollable": true
+                "scrollable": true,
+                "title": "Import Contacts and Organizations"
             },
             "configAlternates": {
                 "container|align": "string",
                 "container|pack": "string",
                 "id": "string",
                 "layout": "string",
-                "scrollable": "auto"
+                "scrollable": "auto",
+                "title": "string"
             },
             "name": "MyPanel",
             "designerId": "6bf9c52f-66b7-4361-9c3b-9a004aed3b8c"
