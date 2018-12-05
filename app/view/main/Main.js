@@ -30,7 +30,7 @@ Ext.define('ContactManagerModule.view.main.Main', {
     items: [
         {
             xtype: 'panel',
-            id: 'importPanel',
+            id: 'mainPanel',
             scrollable: true,
             layout: {
                 type: 'vbox',

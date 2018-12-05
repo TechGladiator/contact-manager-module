@@ -32,7 +32,7 @@
             "userConfig": {
                 "container|align": "center",
                 "container|pack": "center",
-                "id": "importPanel",
+                "id": "mainPanel",
                 "layout": "vbox",
                 "scrollable": true
             },
