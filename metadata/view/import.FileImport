@@ -1,0 +1,22 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "import.fileimport",
+        "designer|userClassName": "import.FileImport",
+        "title": "File Import"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "title": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "307a6255-b814-4ef6-a03b-83fb901bddd2",
+    "viewControllerInstanceId": "2d2d224d-eafa-4568-a928-12125a7c3b79",
+    "viewModelInstanceId": "09787f5c-ba1d-4b92-a54c-a8d9943c0493"
+}
