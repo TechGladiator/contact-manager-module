@@ -19,8 +19,7 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     requires: [
         'ContactManagerModule.view.main.MainViewModel',
-        'Ext.tab.Panel',
-        'Ext.tab.Tab'
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
@@ -30,26 +29,14 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     items: [
         {
-            xtype: 'tabpanel',
+            xtype: 'panel',
             id: 'mainPanel',
-            ui: 'navigation',
-            activeTab: 0,
-            tabPosition: 'left',
-            tabRotation: '0',
-            items: [
-                {
-                    xtype: 'panel',
-                    title: 'Home'
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Contacts'
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Organizations'
-                }
-            ]
+            title: 'Import Contacts from CSV or XLS File',
+            titleAlign: 'center',
+            layout: {
+                type: 'hbox',
+                align: 'stretch'
+            }
         }
     ]
 

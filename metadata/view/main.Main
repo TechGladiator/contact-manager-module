@@ -23,116 +23,28 @@
     "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce",
     "cn": [
         {
-            "type": "Ext.tab.Panel",
+            "type": "Ext.panel.Panel",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "activeTab": 0,
-                "designer|uiInterfaceName": "navigation",
+                "container|align": "stretch",
                 "id": "mainPanel",
-                "tabPosition": "left",
-                "tabRotation": "0",
-                "ui": "navigation"
+                "layout": "hbox",
+                "title": "Import Contacts from CSV or XLS File",
+                "titleAlign": "center"
             },
             "configAlternates": {
-                "activeTab": "auto",
-                "designer|uiInterfaceName": "string",
+                "container|align": "string",
                 "id": "string",
-                "tabPosition": "string",
-                "tabRotation": "string",
-                "ui": "string"
+                "layout": "string",
+                "title": "string",
+                "titleAlign": "string"
             },
-            "name": "MyTabPanel",
-            "designerId": "7d9fef95-3c19-45c4-bad1-d1ca002ce642",
-            "cn": [
-                {
-                    "type": "Ext.panel.Panel",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "title": "Home"
-                    },
-                    "configAlternates": {
-                        "title": "string"
-                    },
-                    "name": "MyPanel",
-                    "designerId": "30349b87-429d-44a7-8bd7-7483f85483fb",
-                    "cn": [
-                        {
-                            "type": "Ext.tab.Tab",
-                            "reference": {
-                                "name": "tabConfig",
-                                "type": "object"
-                            },
-                            "codeClass": null,
-                            "name": "TabConfig",
-                            "designerId": "77007682-2b8c-4011-8215-19f4bfffc962"
-                        }
-                    ]
-                },
-                {
-                    "type": "Ext.panel.Panel",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "title": "Contacts"
-                    },
-                    "configAlternates": {
-                        "title": "string"
-                    },
-                    "name": "MyPanel1",
-                    "designerId": "655a8d4a-f6af-430b-bada-5d032a8281c9",
-                    "cn": [
-                        {
-                            "type": "Ext.tab.Tab",
-                            "reference": {
-                                "name": "tabConfig",
-                                "type": "object"
-                            },
-                            "codeClass": null,
-                            "name": "TabConfig1",
-                            "designerId": "9def4d69-81bd-4b4f-9b89-0c71f1fe9c73"
-                        }
-                    ]
-                },
-                {
-                    "type": "Ext.panel.Panel",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "title": "Organizations"
-                    },
-                    "configAlternates": {
-                        "title": "string"
-                    },
-                    "name": "MyPanel2",
-                    "designerId": "3eed8715-1daa-4e21-a7b2-b139997e6817",
-                    "cn": [
-                        {
-                            "type": "Ext.tab.Tab",
-                            "reference": {
-                                "name": "tabConfig",
-                                "type": "object"
-                            },
-                            "codeClass": null,
-                            "name": "TabConfig2",
-                            "designerId": "210ea751-0e69-40ff-9565-dcc0a7106d43"
-                        }
-                    ]
-                }
-            ]
+            "name": "MyPanel",
+            "designerId": "db273c0f-c513-4b73-bffe-4be8d8d60d24"
         }
     ]
 }
