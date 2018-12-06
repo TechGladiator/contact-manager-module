@@ -33,7 +33,7 @@
                 "container|align": "stretch",
                 "id": "mainPanel",
                 "layout": "hbox",
-                "title": "Import Contacts from CSV or XLS File",
+                "title": "Import Contacts",
                 "titleAlign": "center"
             },
             "configAlternates": {
@@ -44,7 +44,55 @@
                 "titleAlign": "string"
             },
             "name": "MyPanel",
-            "designerId": "db273c0f-c513-4b73-bffe-4be8d8d60d24"
+            "designerId": "db273c0f-c513-4b73-bffe-4be8d8d60d24",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "height": 250,
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "title": "Import From CSV or XLS file",
+                        "width": 400
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "height": "auto",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "title": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyPanel1",
+                    "designerId": "b4e5968a-d394-4aed-974f-f275844f36c9",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.File",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string"
+                            },
+                            "name": "MyFileUpload",
+                            "designerId": "8de03bb4-a45d-488c-a25f-42f265b6dedd"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

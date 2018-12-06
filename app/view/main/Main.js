@@ -19,7 +19,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     requires: [
         'ContactManagerModule.view.main.MainViewModel',
-        'Ext.panel.Panel'
+        'Ext.panel.Panel',
+        'Ext.form.field.File'
     ],
 
     viewModel: {
@@ -31,12 +32,32 @@ Ext.define('ContactManagerModule.view.main.Main', {
         {
             xtype: 'panel',
             id: 'mainPanel',
-            title: 'Import Contacts from CSV or XLS File',
+            title: 'Import Contacts',
             titleAlign: 'center',
             layout: {
                 type: 'hbox',
                 align: 'stretch'
-            }
+            },
+            items: [
+                {
+                    xtype: 'panel',
+                    flex: 1,
+                    height: 250,
+                    width: 400,
+                    title: 'Import From CSV or XLS file',
+                    layout: {
+                        type: 'vbox',
+                        align: 'center',
+                        pack: 'center'
+                    },
+                    items: [
+                        {
+                            xtype: 'filefield',
+                            fieldLabel: 'Label'
+                        }
+                    ]
+                }
+            ]
         }
     ]
 
