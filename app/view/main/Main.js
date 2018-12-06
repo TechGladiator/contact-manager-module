@@ -19,7 +19,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     requires: [
         'ContactManagerModule.view.main.MainViewModel',
-        'Ext.panel.Panel'
+        'Ext.tab.Panel',
+        'Ext.tab.Tab'
     ],
 
     viewModel: {
@@ -29,14 +30,27 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     items: [
         {
-            xtype: 'panel',
+            xtype: 'tabpanel',
             id: 'mainPanel',
-            scrollable: true,
-            layout: {
-                type: 'vbox',
-                align: 'center',
-                pack: 'center'
-            }
+            ui: 'navigation',
+            activeTab: 0,
+            minTabWidth: 50,
+            tabPosition: 'left',
+            tabRotation: '0',
+            items: [
+                {
+                    xtype: 'panel',
+                    title: 'Home'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Tab 2'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Tab 3'
+                }
+            ]
         }
     ]
 
