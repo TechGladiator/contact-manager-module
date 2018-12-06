@@ -33,7 +33,6 @@
                 "activeTab": 0,
                 "designer|uiInterfaceName": "navigation",
                 "id": "mainPanel",
-                "minTabWidth": 50,
                 "tabPosition": "left",
                 "tabRotation": "0",
                 "ui": "navigation"
@@ -42,7 +41,6 @@
                 "activeTab": "auto",
                 "designer|uiInterfaceName": "string",
                 "id": "string",
-                "minTabWidth": "number",
                 "tabPosition": "string",
                 "tabRotation": "string",
                 "ui": "string"
@@ -86,7 +84,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "title": "Tab 2"
+                        "title": "Contacts"
                     },
                     "configAlternates": {
                         "title": "string"
@@ -114,7 +112,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "title": "Tab 3"
+                        "title": "Organizations"
                     },
                     "configAlternates": {
                         "title": "string"

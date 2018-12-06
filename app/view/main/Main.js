@@ -34,7 +34,6 @@ Ext.define('ContactManagerModule.view.main.Main', {
             id: 'mainPanel',
             ui: 'navigation',
             activeTab: 0,
-            minTabWidth: 50,
             tabPosition: 'left',
             tabRotation: '0',
             items: [
@@ -44,11 +43,11 @@ Ext.define('ContactManagerModule.view.main.Main', {
                 },
                 {
                     xtype: 'panel',
-                    title: 'Tab 2'
+                    title: 'Contacts'
                 },
                 {
                     xtype: 'panel',
-                    title: 'Tab 3'
+                    title: 'Organizations'
                 }
             ]
         }
