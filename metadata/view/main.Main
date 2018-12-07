@@ -6,16 +6,18 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "center",
         "designer|initialView": true,
         "designer|userAlias": "main.main",
         "designer|userClassName": "main.Main",
-        "layout": "fit"
+        "layout": "vbox"
     },
     "configAlternates": {
         "designer|initialView": "boolean",
         "designer|userAlias": "string",
         "designer|userClassName": "string",
-        "layout": "string"
+        "layout": "string",
+        "container|align": "string"
     },
     "name": "MyViewport",
     "designerId": "8c6b6bff-d1be-4cf4-9f2a-f3a53392152d",
@@ -31,17 +33,25 @@
             "codeClass": null,
             "userConfig": {
                 "container|align": "stretch",
-                "id": "mainPanel",
+                "designer|uiInterfaceName": "default-framed",
+                "frame": true,
+                "id": "contactsImportPanel",
                 "layout": "hbox",
-                "title": "Import Contacts",
-                "titleAlign": "center"
+                "minHeight": 200,
+                "title": "Import Contacts and Organizations",
+                "titleAlign": "center",
+                "width": "100%"
             },
             "configAlternates": {
                 "container|align": "string",
                 "id": "string",
                 "layout": "string",
                 "title": "string",
-                "titleAlign": "string"
+                "titleAlign": "string",
+                "designer|uiInterfaceName": "string",
+                "frame": "boolean",
+                "minHeight": "number",
+                "width": "auto"
             },
             "name": "MyPanel",
             "designerId": "db273c0f-c513-4b73-bffe-4be8d8d60d24",
@@ -56,11 +66,13 @@
                     "userConfig": {
                         "container|align": "center",
                         "container|pack": "center",
-                        "height": 250,
+                        "designer|uiInterfaceName": "default-framed",
+                        "frame": true,
                         "layout": "vbox",
                         "layout|flex": 1,
-                        "title": "Import From CSV or XLS file",
-                        "width": 400
+                        "margin": "25 0 25 25",
+                        "minHeight": 250,
+                        "title": "Contact CSV or XLS File Import"
                     },
                     "configAlternates": {
                         "container|align": "string",
@@ -69,11 +81,71 @@
                         "layout": "string",
                         "layout|flex": "number",
                         "title": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "designer|uiInterfaceName": "string",
+                        "frame": "boolean",
+                        "margin": "auto",
+                        "minHeight": "number"
                     },
                     "name": "MyPanel1",
                     "designerId": "b4e5968a-d394-4aed-974f-f275844f36c9",
                     "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "container|pack": "center",
+                                "designer|uiInterfaceName": "default-framed",
+                                "frame": true,
+                                "id": "dragNDrop",
+                                "layout": "vbox",
+                                "layout|flex": 1,
+                                "margin": "5 0",
+                                "width": "80%"
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "frame": "boolean",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto",
+                                "padding": "auto",
+                                "width": "auto",
+                                "id": "string",
+                                "container|align": "string",
+                                "container|pack": "string",
+                                "layout": "string"
+                            },
+                            "name": "MyPanel3",
+                            "designerId": "82560049-d291-4cea-a19a-bd0c894470d4",
+                            "cn": [
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<h1>Drag and Drop File here</h1>",
+                                        "layout|flex": 1,
+                                        "maxHeight": 50
+                                    },
+                                    "configAlternates": {
+                                        "html": "string",
+                                        "layout|flex": "number",
+                                        "maxHeight": "number"
+                                    },
+                                    "name": "MyPanel5",
+                                    "designerId": "7d6b82e3-499e-4577-b8a2-063aa1b65b8e"
+                                }
+                            ]
+                        },
                         {
                             "type": "Ext.form.field.File",
                             "reference": {
@@ -82,13 +154,207 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "fieldLabel": "Label"
+                                "id": "contactFileUpload",
+                                "width": "80%"
                             },
                             "configAlternates": {
-                                "fieldLabel": "string"
+                                "fieldLabel": "string",
+                                "width": "auto",
+                                "id": "string"
                             },
                             "name": "MyFileUpload",
                             "designerId": "8de03bb4-a45d-488c-a25f-42f265b6dedd"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "default-framed",
+                        "frame": true,
+                        "layout": "hbox",
+                        "layout|flex": 1,
+                        "margin": 25,
+                        "minHeight": 250,
+                        "title": "Cloud Import"
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "height": "auto",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "title": "string",
+                        "width": "auto",
+                        "designer|uiInterfaceName": "string",
+                        "frame": "boolean",
+                        "margin": "auto",
+                        "maxHeight": "number",
+                        "maxWidth": "number",
+                        "minHeight": "number"
+                    },
+                    "name": "MyPanel2",
+                    "designerId": "c96221d9-8b3f-41c6-9f12-a6d82255615d",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": 25,
+                                "src": "/img/gmail.png",
+                                "width": 201
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "src": "uri",
+                                "width": "auto",
+                                "margin": "auto"
+                            },
+                            "name": "MyImg",
+                            "designerId": "e9827f19-973d-4731-b8c4-a1f076538161"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": 25,
+                                "src": "/img/office365.png",
+                                "width": 201
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "src": "uri",
+                                "width": "auto",
+                                "margin": "auto"
+                            },
+                            "name": "MyImg1",
+                            "designerId": "b2191672-b655-44f7-9f64-b526fbf28a00"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "designer|uiInterfaceName": "default-framed",
+                        "frame": true,
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "margin": "25 25 25 0",
+                        "minHeight": 250,
+                        "title": "Organization CSV or XLS File Import"
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "height": "auto",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "title": "string",
+                        "width": "auto",
+                        "designer|uiInterfaceName": "string",
+                        "frame": "boolean",
+                        "margin": "auto",
+                        "minHeight": "number"
+                    },
+                    "name": "MyPanel4",
+                    "designerId": "479b8e92-8ca7-4db0-be8d-ec8f32e91591",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "container|pack": "center",
+                                "designer|uiInterfaceName": "default-framed",
+                                "frame": true,
+                                "id": "dragNDrop1",
+                                "layout": "vbox",
+                                "layout|flex": 1,
+                                "margin": "5 0",
+                                "width": "80%"
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "frame": "boolean",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto",
+                                "padding": "auto",
+                                "width": "auto",
+                                "id": "string",
+                                "container|align": "string",
+                                "container|pack": "string",
+                                "layout": "string"
+                            },
+                            "name": "MyPanel3",
+                            "designerId": "0ee2fc6d-a603-4759-8c3a-2204a897e398",
+                            "cn": [
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<h1>Drag and Drop File here</h1>",
+                                        "layout|flex": 1,
+                                        "maxHeight": 50
+                                    },
+                                    "configAlternates": {
+                                        "html": "string",
+                                        "layout|flex": "number",
+                                        "maxHeight": "number"
+                                    },
+                                    "name": "MyPanel6",
+                                    "designerId": "3cc77262-4cd2-4088-9738-3f5b7eca7530"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.field.File",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "contactFileUpload1",
+                                "width": "80%"
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "width": "auto",
+                                "id": "string"
+                            },
+                            "name": "MyFileUpload",
+                            "designerId": "bdad7cb8-4c3f-41a1-839d-00dc927bf5f6"
                         }
                     ]
                 }
