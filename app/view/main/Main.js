@@ -19,9 +19,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     requires: [
         'ContactManagerModule.view.main.MainViewModel',
-        'Ext.panel.Panel',
-        'Ext.form.field.File',
-        'Ext.Img'
+        'ContactManagerModule.view.import.ContactsImportPanel',
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
@@ -34,126 +33,7 @@ Ext.define('ContactManagerModule.view.main.Main', {
     },
     items: [
         {
-            xtype: 'panel',
-            frame: true,
-            id: 'contactsImportPanel',
-            minHeight: 200,
-            width: '100%',
-            title: 'Import Contacts and Organizations',
-            titleAlign: 'center',
-            layout: {
-                type: 'hbox',
-                align: 'stretch'
-            },
-            items: [
-                {
-                    xtype: 'panel',
-                    flex: 1,
-                    frame: true,
-                    margin: '25 0 25 25',
-                    minHeight: 250,
-                    title: 'Contact CSV or XLS File Import',
-                    layout: {
-                        type: 'vbox',
-                        align: 'center',
-                        pack: 'center'
-                    },
-                    items: [
-                        {
-                            xtype: 'panel',
-                            flex: 1,
-                            frame: true,
-                            id: 'dragNDrop',
-                            margin: '5 0',
-                            width: '80%',
-                            layout: {
-                                type: 'vbox',
-                                align: 'center',
-                                pack: 'center'
-                            },
-                            items: [
-                                {
-                                    xtype: 'panel',
-                                    flex: 1,
-                                    html: '<h1>Drag and Drop File here</h1>',
-                                    maxHeight: 50
-                                }
-                            ]
-                        },
-                        {
-                            xtype: 'filefield',
-                            id: 'contactFileUpload',
-                            width: '80%'
-                        }
-                    ]
-                },
-                {
-                    xtype: 'panel',
-                    flex: 1,
-                    frame: true,
-                    margin: 25,
-                    minHeight: 250,
-                    layout: 'hbox',
-                    title: 'Cloud Import',
-                    items: [
-                        {
-                            xtype: 'image',
-                            flex: 1,
-                            margin: 25,
-                            width: 201,
-                            src: '/img/gmail.png'
-                        },
-                        {
-                            xtype: 'image',
-                            flex: 1,
-                            margin: 25,
-                            width: 201,
-                            src: '/img/office365.png'
-                        }
-                    ]
-                },
-                {
-                    xtype: 'panel',
-                    flex: 1,
-                    frame: true,
-                    margin: '25 25 25 0',
-                    minHeight: 250,
-                    title: 'Organization CSV or XLS File Import',
-                    layout: {
-                        type: 'vbox',
-                        align: 'center',
-                        pack: 'center'
-                    },
-                    items: [
-                        {
-                            xtype: 'panel',
-                            flex: 1,
-                            frame: true,
-                            id: 'dragNDrop1',
-                            margin: '5 0',
-                            width: '80%',
-                            layout: {
-                                type: 'vbox',
-                                align: 'center',
-                                pack: 'center'
-                            },
-                            items: [
-                                {
-                                    xtype: 'panel',
-                                    flex: 1,
-                                    html: '<h1>Drag and Drop File here</h1>',
-                                    maxHeight: 50
-                                }
-                            ]
-                        },
-                        {
-                            xtype: 'filefield',
-                            id: 'contactFileUpload1',
-                            width: '80%'
-                        }
-                    ]
-                }
-            ]
+            xtype: 'import.contactsimportpanel'
         }
     ]
 
