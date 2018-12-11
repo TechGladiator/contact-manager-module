@@ -141,7 +141,7 @@ Ext.define('ContactManagerModule.view.import.ContactsImportPanel', {
                 },
                 {
                     xtype: 'filefield',
-                    id: 'contactFileUpload1',
+                    id: 'orgFileUpload',
                     width: '80%'
                 }
             ]

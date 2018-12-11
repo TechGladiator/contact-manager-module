@@ -325,7 +325,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "id": "contactFileUpload1",
+                        "id": "orgFileUpload",
                         "width": "80%"
                     },
                     "configAlternates": {
