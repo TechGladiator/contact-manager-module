@@ -1,0 +1,17 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contacts.gridpanel",
+        "designer|userClassName": "contacts.GridPanelViewController"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "e6059488-3ad2-49ed-948d-e84b95f01108"
+}

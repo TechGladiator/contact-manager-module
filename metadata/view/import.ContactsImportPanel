@@ -155,6 +155,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "container|align": "middle",
+                "container|pack": "center",
                 "designer|uiInterfaceName": "default-framed",
                 "frame": true,
                 "layout": "hbox",
@@ -202,6 +204,28 @@
                     },
                     "name": "MyImg",
                     "designerId": "e9827f19-973d-4731-b8c4-a1f076538161"
+                },
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "margin": 25,
+                        "src": "/img/icloud.png",
+                        "width": 201
+                    },
+                    "configAlternates": {
+                        "layout|flex": "number",
+                        "src": "uri",
+                        "width": "auto",
+                        "margin": "auto"
+                    },
+                    "name": "MyImg2",
+                    "designerId": "54a4dfd1-5398-44ee-aaf9-ae9cad8575c8"
                 },
                 {
                     "type": "Ext.Img",

@@ -86,8 +86,12 @@ Ext.define('ContactManagerModule.view.import.ContactsImportPanel', {
             frame: true,
             margin: 25,
             minHeight: 250,
-            layout: 'hbox',
             title: 'Cloud Import',
+            layout: {
+                type: 'hbox',
+                align: 'middle',
+                pack: 'center'
+            },
             items: [
                 {
                     xtype: 'image',
@@ -95,6 +99,13 @@ Ext.define('ContactManagerModule.view.import.ContactsImportPanel', {
                     margin: 25,
                     width: 201,
                     src: '/img/gmail.png'
+                },
+                {
+                    xtype: 'image',
+                    flex: 1,
+                    margin: 25,
+                    width: 201,
+                    src: '/img/icloud.png'
                 },
                 {
                     xtype: 'image',

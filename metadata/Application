@@ -6,17 +6,26 @@
     },
     "codeClass": null,
     "userConfig": {
+        "models": [
+            "contacts.Model"
+        ],
         "name": "ContactManagerModule",
+        "stores": [
+            "contacts.Store"
+        ],
         "title": "Contact Manager Module",
         "views": [
             "main.Main",
-            "import.ContactsImportPanel"
+            "import.ContactsImportPanel",
+            "contacts.GridPanel"
         ]
     },
     "configAlternates": {
         "name": "string",
         "title": "string",
-        "views": "typedarray"
+        "views": "typedarray",
+        "models": "typedarray",
+        "stores": "typedarray"
     },
     "name": "Application",
     "designerId": "application"
