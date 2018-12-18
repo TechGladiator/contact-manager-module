@@ -27,6 +27,8 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
     viewModel: {
         type: 'contacts.fieldmatcher'
     },
+    frame: true,
+    width: 520,
     layout: 'vbox',
     title: 'Import Contacts from .CSV/.XLS file',
 
@@ -46,6 +48,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                 {
                     xtype: 'panel',
                     flex: 1,
+                    width: 250,
                     layout: {
                         type: 'vbox',
                         align: 'stretch'
@@ -60,7 +63,127 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
+                            html: '<p style="font-size: 14px;">Title</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
                             html: '<p style="font-size: 14px;">First Name</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Middle Name</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Last Name</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Suffix</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Gender</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home Phone</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Mobile Phone</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Personal Email</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home Street</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home City</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home State</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home Postal Code</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Home Country</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Name</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Phone</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Email</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Street</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company City</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Postal Code</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Country</p>',
                             margin: '0 5'
                         }
                     ]
@@ -68,6 +191,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                 {
                     xtype: 'panel',
                     flex: 1,
+                    width: 250,
                     layout: {
                         type: 'vbox',
                         align: 'stretch'
@@ -83,6 +207,507 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                             xtype: 'button',
                             flex: 1,
                             margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            padding: 8.5,
                             text: 'Match to Field',
                             menu: {
                                 xtype: 'menu',
