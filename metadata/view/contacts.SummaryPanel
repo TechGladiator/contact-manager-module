@@ -1,0 +1,48 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contacts.summarypanel",
+        "designer|userClassName": "contacts.SummaryPanel",
+        "height": 250,
+        "title": "Import Summary",
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel13",
+    "designerId": "29aa38cb-c46d-448e-93ea-9a42e01b0add",
+    "viewControllerInstanceId": "61a3a309-8894-413e-9d1f-95aa290cfa69",
+    "viewModelInstanceId": "0b01b077-c442-428d-af32-83b061ce3515",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "summaryDisplay",
+                "html": "<p><b>Total contacts in file: 1000</b></p>",
+                "padding": 15
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "html": "string",
+                "padding": "auto"
+            },
+            "name": "MyPanel13",
+            "designerId": "71e8f73e-a3d1-4974-9d67-a0901d610da3"
+        }
+    ]
+}

@@ -18,7 +18,8 @@
             "main.Main",
             "import.ContactsImportPanel",
             "contacts.GridPanel",
-            "contacts.FieldMatcher"
+            "contacts.FieldMatcher",
+            "contacts.SummaryPanel"
         ]
     },
     "configAlternates": {
