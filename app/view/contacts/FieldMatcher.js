@@ -19,7 +19,9 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
 
     requires: [
         'ContactManagerModule.view.contacts.FieldMatcherViewModel',
-        'Ext.panel.Panel'
+        'Ext.button.Button',
+        'Ext.menu.Menu',
+        'Ext.menu.Item'
     ],
 
     viewModel: {
@@ -32,7 +34,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
         {
             xtype: 'panel',
             html: '<p style="font-size: 18px;">Match the file fields to template fields</p>',
-            margin: 10,
+            margin: '0 10',
             padding: '0 5'
         },
         {
@@ -52,7 +54,13 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<p style="font-size: 15px">Contact Manager Fields</p>',
+                            html: '<p style="font-size: 15px; color: #a0a0a0;">Contact Manager Fields</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">First Name</p>',
                             margin: '0 5'
                         }
                     ]
@@ -68,8 +76,32 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<p style="font-size: 15px;">Fields in imported file</p>',
+                            html: '<p style="font-size: 15px; color: #a0a0a0;">Fields in imported file</p>',
                             margin: '0 5'
+                        },
+                        {
+                            xtype: 'button',
+                            flex: 1,
+                            margin: 5,
+                            text: 'Match to Field',
+                            menu: {
+                                xtype: 'menu',
+                                width: 120,
+                                items: [
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    },
+                                    {
+                                        xtype: 'menuitem',
+                                        text: 'Menu Item'
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }

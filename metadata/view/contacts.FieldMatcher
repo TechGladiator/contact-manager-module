@@ -32,7 +32,7 @@
             "userConfig": {
                 "designer|displayName": "instrucText",
                 "html": "<p style=\"font-size: 18px;\">Match the file fields to template fields</p>",
-                "margin": 10,
+                "margin": "0 10",
                 "padding": "0 5"
             },
             "configAlternates": {
@@ -97,7 +97,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "ourFields",
-                                "html": "<p style=\"font-size: 15px\">Contact Manager Fields</p>",
+                                "html": "<p style=\"font-size: 15px; color: #a0a0a0;\">Contact Manager Fields</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
                             },
@@ -109,6 +109,28 @@
                             },
                             "name": "MyPanel10",
                             "designerId": "c14aca79-426e-449d-941e-5724dce8bf78"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "firstName",
+                                "html": "<p style=\"font-size: 14px;\">First Name</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto"
+                            },
+                            "name": "MyPanel12",
+                            "designerId": "e0c4173f-8cf5-4a11-99fb-78ecf9dfff23"
                         }
                     ]
                 },
@@ -143,7 +165,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "theirFields",
-                                "html": "<p style=\"font-size: 15px;\">Fields in imported file</p>",
+                                "html": "<p style=\"font-size: 15px; color: #a0a0a0;\">Fields in imported file</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
                             },
@@ -155,6 +177,94 @@
                             },
                             "name": "MyPanel11",
                             "designerId": "03e7547c-d4b6-4f43-bf79-ea82163eeacf"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": 5,
+                                "text": "Match to Field"
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "margin": "auto",
+                                "text": "string"
+                            },
+                            "name": "MyButton",
+                            "designerId": "ffbce41a-ed6d-4413-a0bf-d0a239fa2e86",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Menu",
+                                    "reference": {
+                                        "name": "menu",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "width": 120
+                                    },
+                                    "configAlternates": {
+                                        "width": "auto"
+                                    },
+                                    "name": "MyMenu",
+                                    "designerId": "30e2bbb5-1428-4969-80e7-e3fd7b4b864d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Menu Item"
+                                            },
+                                            "configAlternates": {
+                                                "text": "string"
+                                            },
+                                            "name": "MyMenuItem",
+                                            "designerId": "1b3d3c78-e276-4be2-9eab-0e2ad8c253a7"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Menu Item"
+                                            },
+                                            "configAlternates": {
+                                                "text": "string"
+                                            },
+                                            "name": "MyMenuItem1",
+                                            "designerId": "8afc619e-b797-409d-9cb6-5dde59330707"
+                                        },
+                                        {
+                                            "type": "Ext.menu.Item",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Menu Item"
+                                            },
+                                            "configAlternates": {
+                                                "text": "string"
+                                            },
+                                            "name": "MyMenuItem2",
+                                            "designerId": "6242eb03-4bd2-41e4-bf7a-8269be5e31b9"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
