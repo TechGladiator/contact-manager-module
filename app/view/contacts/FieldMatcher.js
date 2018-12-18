@@ -38,6 +38,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
         {
             xtype: 'panel',
             flex: 1,
+            margin: '0 10',
             layout: 'hbox',
             items: [
                 {
@@ -46,7 +47,15 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                     layout: {
                         type: 'vbox',
                         align: 'stretch'
-                    }
+                    },
+                    items: [
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 15px">Contact Manager Fields</p>',
+                            margin: '0 5'
+                        }
+                    ]
                 },
                 {
                     xtype: 'panel',
@@ -54,7 +63,15 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                     layout: {
                         type: 'vbox',
                         align: 'stretch'
-                    }
+                    },
+                    items: [
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 15px;">Fields in imported file</p>',
+                            margin: '0 5'
+                        }
+                    ]
                 }
             ]
         }

@@ -54,12 +54,14 @@
             "userConfig": {
                 "designer|displayName": "fieldMatcher",
                 "layout": "hbox",
-                "layout|flex": 1
+                "layout|flex": 1,
+                "margin": "0 10"
             },
             "configAlternates": {
                 "designer|displayName": "string",
                 "layout": "string",
-                "layout|flex": "number"
+                "layout|flex": "number",
+                "margin": "auto"
             },
             "name": "MyPanel7",
             "designerId": "48045f18-21c6-47b5-8c71-2ec5b096bb2a",
@@ -84,7 +86,31 @@
                         "layout|flex": "number"
                     },
                     "name": "MyPanel8",
-                    "designerId": "124ba040-a9e0-4fd2-9eb6-251205a5fc7d"
+                    "designerId": "124ba040-a9e0-4fd2-9eb6-251205a5fc7d",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "ourFields",
+                                "html": "<p style=\"font-size: 15px\">Contact Manager Fields</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto"
+                            },
+                            "name": "MyPanel10",
+                            "designerId": "c14aca79-426e-449d-941e-5724dce8bf78"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.panel.Panel",
@@ -106,7 +132,31 @@
                         "layout|flex": "number"
                     },
                     "name": "MyPanel9",
-                    "designerId": "fd615554-2af0-4900-b715-97d77f47f136"
+                    "designerId": "fd615554-2af0-4900-b715-97d77f47f136",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "theirFields",
+                                "html": "<p style=\"font-size: 15px;\">Fields in imported file</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto"
+                            },
+                            "name": "MyPanel11",
+                            "designerId": "03e7547c-d4b6-4f43-bf79-ea82163eeacf"
+                        }
+                    ]
                 }
             ]
         }
