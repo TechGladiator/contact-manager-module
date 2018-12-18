@@ -1,0 +1,22 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contacts.fieldmatcher",
+        "designer|userClassName": "contacts.FieldMatcher",
+        "title": "Import Contacts from .CSV/.XLS file"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "title": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "04d68d89-a129-4677-89a4-b784d1a824f1",
+    "viewControllerInstanceId": "5077e620-054e-4bd5-8915-5f0e695c8d73",
+    "viewModelInstanceId": "c8bdf942-59d5-48c7-860d-b1c17ad00272"
+}

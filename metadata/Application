@@ -17,7 +17,8 @@
         "views": [
             "main.Main",
             "import.ContactsImportPanel",
-            "contacts.GridPanel"
+            "contacts.GridPanel",
+            "contacts.FieldMatcher"
         ]
     },
     "configAlternates": {
