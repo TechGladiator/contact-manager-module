@@ -43,6 +43,72 @@
             },
             "name": "MyPanel",
             "designerId": "0f1f6f6c-776e-46f7-a274-45fccf5ce157"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "fieldMatcher",
+                "layout": "hbox",
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "layout": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyPanel7",
+            "designerId": "48045f18-21c6-47b5-8c71-2ec5b096bb2a",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "designer|displayName": "template",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "designer|displayName": "string",
+                        "layout": "string",
+                        "layout|flex": "number"
+                    },
+                    "name": "MyPanel8",
+                    "designerId": "124ba040-a9e0-4fd2-9eb6-251205a5fc7d"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "designer|displayName": "file",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "designer|displayName": "string",
+                        "layout": "string",
+                        "layout|flex": "number"
+                    },
+                    "name": "MyPanel9",
+                    "designerId": "fd615554-2af0-4900-b715-97d77f47f136"
+                }
+            ]
         }
     ]
 }

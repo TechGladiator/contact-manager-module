@@ -34,6 +34,29 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
             html: '<p style="font-size: 18px;">Match the file fields to template fields</p>',
             margin: 10,
             padding: '0 5'
+        },
+        {
+            xtype: 'panel',
+            flex: 1,
+            layout: 'hbox',
+            items: [
+                {
+                    xtype: 'panel',
+                    flex: 1,
+                    layout: {
+                        type: 'vbox',
+                        align: 'stretch'
+                    }
+                },
+                {
+                    xtype: 'panel',
+                    flex: 1,
+                    layout: {
+                        type: 'vbox',
+                        align: 'stretch'
+                    }
+                }
+            ]
         }
     ]
 
