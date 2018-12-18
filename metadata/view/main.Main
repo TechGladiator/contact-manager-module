@@ -31,7 +31,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "name": "import.ContactsImportPanel",
+            "name": "import.contactsimportpanel",
             "designerId": "16c536f0-1512-45d8-8f83-58599a4ac136",
             "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
         }

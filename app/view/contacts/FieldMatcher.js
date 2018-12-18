@@ -18,12 +18,23 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
     alias: 'widget.contacts.fieldmatcher',
 
     requires: [
-        'ContactManagerModule.view.contacts.FieldMatcherViewModel'
+        'ContactManagerModule.view.contacts.FieldMatcherViewModel',
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
         type: 'contacts.fieldmatcher'
     },
-    title: 'Import Contacts from .CSV/.XLS file'
+    layout: 'vbox',
+    title: 'Import Contacts from .CSV/.XLS file',
+
+    items: [
+        {
+            xtype: 'panel',
+            html: '<p style="font-size: 20px;">Match the fields</p>',
+            margin: 10,
+            padding: '0 5'
+        }
+    ]
 
 });
