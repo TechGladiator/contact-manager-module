@@ -134,13 +134,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "accept": ".csv, .xls, .xlsx",
                         "id": "contactFileUpload",
                         "width": "80%"
                     },
                     "configAlternates": {
                         "fieldLabel": "string",
                         "width": "auto",
-                        "id": "string"
+                        "id": "string",
+                        "accept": "string"
                     },
                     "name": "MyFileUpload",
                     "designerId": "8de03bb4-a45d-488c-a25f-42f265b6dedd"

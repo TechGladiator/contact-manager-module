@@ -76,7 +76,8 @@ Ext.define('ContactManagerModule.view.import.ContactsImportPanel', {
                 {
                     xtype: 'filefield',
                     id: 'contactFileUpload',
-                    width: '80%'
+                    width: '80%',
+                    accept: '.csv, .xls, .xlsx'
                 }
             ]
         },
