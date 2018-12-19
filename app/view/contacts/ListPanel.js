@@ -81,12 +81,14 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'title',
+                    menuDisabled: true,
                     text: 'Title'
                 },
                 {
                     xtype: 'gridcolumn',
                     width: 229,
                     dataIndex: 'first_name',
+                    menuDisabled: true,
                     text: 'First Name'
                 },
                 {
@@ -94,12 +96,14 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'middle_name',
+                    menuDisabled: true,
                     text: 'Middle Name'
                 },
                 {
                     xtype: 'gridcolumn',
                     width: 229,
                     dataIndex: 'last_name',
+                    menuDisabled: true,
                     text: 'Last Name'
                 },
                 {
@@ -107,6 +111,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'suffix',
+                    menuDisabled: true,
                     text: 'Suffix'
                 },
                 {
@@ -114,6 +119,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'gender',
+                    menuDisabled: true,
                     text: 'Gender'
                 },
                 {
@@ -121,6 +127,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_phone',
+                    menuDisabled: true,
                     text: 'Home Phone'
                 },
                 {
@@ -128,6 +135,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'mobile_phone',
+                    menuDisabled: true,
                     text: 'Mobile Phone'
                 },
                 {
@@ -135,6 +143,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'personal_email',
+                    menuDisabled: true,
                     text: 'Personal Email'
                 },
                 {
@@ -142,6 +151,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_street',
+                    menuDisabled: true,
                     text: 'Home Street'
                 },
                 {
@@ -149,6 +159,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_city',
+                    menuDisabled: true,
                     text: 'Home City'
                 },
                 {
@@ -156,6 +167,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_state',
+                    menuDisabled: true,
                     text: 'Home State'
                 },
                 {
@@ -163,6 +175,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_postal_code',
+                    menuDisabled: true,
                     text: 'Home Postal Code'
                 },
                 {
@@ -170,24 +183,28 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'home_country',
+                    menuDisabled: true,
                     text: 'Home Country'
                 },
                 {
                     xtype: 'gridcolumn',
                     width: 229,
                     dataIndex: 'company_name',
+                    menuDisabled: true,
                     text: 'Company Name'
                 },
                 {
                     xtype: 'gridcolumn',
                     width: 229,
                     dataIndex: 'company_email',
+                    menuDisabled: true,
                     text: 'Company Email'
                 },
                 {
                     xtype: 'gridcolumn',
                     width: 229,
                     dataIndex: 'company_phone',
+                    menuDisabled: true,
                     text: 'Company Phone'
                 },
                 {
@@ -195,6 +212,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'company_street',
+                    menuDisabled: true,
                     text: 'Company Street'
                 },
                 {
@@ -202,6 +220,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'company_city',
+                    menuDisabled: true,
                     text: 'Company City'
                 },
                 {
@@ -209,6 +228,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'company_state',
+                    menuDisabled: true,
                     text: 'Company State'
                 },
                 {
@@ -216,6 +236,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'company_postal_code',
+                    menuDisabled: true,
                     text: 'Company Postal Code'
                 },
                 {
@@ -223,6 +244,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     hidden: true,
                     width: 229,
                     dataIndex: 'company_country',
+                    menuDisabled: true,
                     text: 'Company Country'
                 },
                 {

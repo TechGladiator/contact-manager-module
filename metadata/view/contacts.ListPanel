@@ -195,12 +195,14 @@
                     "userConfig": {
                         "dataIndex": "title",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Title",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -216,11 +218,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "first_name",
+                        "menuDisabled": true,
                         "text": "First Name",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -237,12 +241,14 @@
                     "userConfig": {
                         "dataIndex": "middle_name",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Middle Name",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -258,11 +264,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "last_name",
+                        "menuDisabled": true,
                         "text": "Last Name",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -279,12 +287,14 @@
                     "userConfig": {
                         "dataIndex": "suffix",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Suffix",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -301,12 +311,14 @@
                     "userConfig": {
                         "dataIndex": "gender",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Gender",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -323,12 +335,14 @@
                     "userConfig": {
                         "dataIndex": "home_phone",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home Phone",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -345,12 +359,14 @@
                     "userConfig": {
                         "dataIndex": "mobile_phone",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Mobile Phone",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -367,12 +383,14 @@
                     "userConfig": {
                         "dataIndex": "personal_email",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Personal Email",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -389,12 +407,14 @@
                     "userConfig": {
                         "dataIndex": "home_street",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home Street",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -411,12 +431,14 @@
                     "userConfig": {
                         "dataIndex": "home_city",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home City",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -433,12 +455,14 @@
                     "userConfig": {
                         "dataIndex": "home_state",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home State",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -455,12 +479,14 @@
                     "userConfig": {
                         "dataIndex": "home_postal_code",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home Postal Code",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -477,12 +503,14 @@
                     "userConfig": {
                         "dataIndex": "home_country",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Home Country",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -498,11 +526,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_name",
+                        "menuDisabled": true,
                         "text": "Company Name",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -518,11 +548,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_email",
+                        "menuDisabled": true,
                         "text": "Company Email",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -538,11 +570,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_phone",
+                        "menuDisabled": true,
                         "text": "Company Phone",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -559,12 +593,14 @@
                     "userConfig": {
                         "dataIndex": "company_street",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Company Street",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -581,12 +617,14 @@
                     "userConfig": {
                         "dataIndex": "company_city",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Company City",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -603,12 +641,14 @@
                     "userConfig": {
                         "dataIndex": "company_state",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Company State",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -625,12 +665,14 @@
                     "userConfig": {
                         "dataIndex": "company_postal_code",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Company Postal Code",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
@@ -647,12 +689,14 @@
                     "userConfig": {
                         "dataIndex": "company_country",
                         "hidden": true,
+                        "menuDisabled": true,
                         "text": "Company Country",
                         "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
+                        "menuDisabled": "boolean",
                         "text": "string",
                         "width": "auto"
                     },
