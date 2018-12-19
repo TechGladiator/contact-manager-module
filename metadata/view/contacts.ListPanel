@@ -173,7 +173,7 @@
                         "hideable": false,
                         "menuDisabled": true,
                         "sortable": false,
-                        "width": 42
+                        "width": 41
                     },
                     "configAlternates": {
                         "width": "auto",
@@ -195,12 +195,14 @@
                     "userConfig": {
                         "dataIndex": "title",
                         "hidden": true,
-                        "text": "Title"
+                        "text": "Title",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn",
                     "designerId": "bc3b73ac-cdd3-4fdf-b8d7-8dd20d090ce6"
@@ -215,7 +217,7 @@
                     "userConfig": {
                         "dataIndex": "first_name",
                         "text": "First Name",
-                        "width": 172
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -235,12 +237,14 @@
                     "userConfig": {
                         "dataIndex": "middle_name",
                         "hidden": true,
-                        "text": "Middle Name"
+                        "text": "Middle Name",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn2",
                     "designerId": "18dfe3bb-65e2-47ba-b0c1-2ea7440dea0b"
@@ -255,7 +259,7 @@
                     "userConfig": {
                         "dataIndex": "last_name",
                         "text": "Last Name",
-                        "width": 198
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -275,12 +279,14 @@
                     "userConfig": {
                         "dataIndex": "suffix",
                         "hidden": true,
-                        "text": "Suffix"
+                        "text": "Suffix",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn4",
                     "designerId": "2c738baa-f157-4e3e-9bcd-ea146601d0ea"
@@ -295,12 +301,14 @@
                     "userConfig": {
                         "dataIndex": "gender",
                         "hidden": true,
-                        "text": "Gender"
+                        "text": "Gender",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn5",
                     "designerId": "5e40557e-3e81-41f3-90cc-8973286a525b"
@@ -315,12 +323,14 @@
                     "userConfig": {
                         "dataIndex": "home_phone",
                         "hidden": true,
-                        "text": "Home Phone"
+                        "text": "Home Phone",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn6",
                     "designerId": "40f3a484-f7e1-4365-848a-ff1eae051b0b"
@@ -335,12 +345,14 @@
                     "userConfig": {
                         "dataIndex": "mobile_phone",
                         "hidden": true,
-                        "text": "Mobile Phone"
+                        "text": "Mobile Phone",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn7",
                     "designerId": "3c1d55d2-8198-4976-926a-2c92b02df122"
@@ -355,12 +367,14 @@
                     "userConfig": {
                         "dataIndex": "personal_email",
                         "hidden": true,
-                        "text": "Personal Email"
+                        "text": "Personal Email",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn8",
                     "designerId": "f270e31e-73bd-4450-a1c4-bb80761ab737"
@@ -375,12 +389,14 @@
                     "userConfig": {
                         "dataIndex": "home_street",
                         "hidden": true,
-                        "text": "Home Street"
+                        "text": "Home Street",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn9",
                     "designerId": "d6e62149-f8b7-4de8-addd-1d19f45e3e24"
@@ -395,12 +411,14 @@
                     "userConfig": {
                         "dataIndex": "home_city",
                         "hidden": true,
-                        "text": "Home City"
+                        "text": "Home City",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn10",
                     "designerId": "fcc4f4bc-632e-4d6e-bf86-166b2e08b430"
@@ -415,12 +433,14 @@
                     "userConfig": {
                         "dataIndex": "home_state",
                         "hidden": true,
-                        "text": "Home State"
+                        "text": "Home State",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn11",
                     "designerId": "5c6fce5a-0586-4c67-855f-428f289725c4"
@@ -435,12 +455,14 @@
                     "userConfig": {
                         "dataIndex": "home_postal_code",
                         "hidden": true,
-                        "text": "Home Postal Code"
+                        "text": "Home Postal Code",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn12",
                     "designerId": "82603b26-9386-4009-a827-8a3d0657a2e2"
@@ -455,12 +477,14 @@
                     "userConfig": {
                         "dataIndex": "home_country",
                         "hidden": true,
-                        "text": "Home Country"
+                        "text": "Home Country",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn13",
                     "designerId": "95297cab-458f-4612-ba79-2360aa3652cb"
@@ -475,7 +499,7 @@
                     "userConfig": {
                         "dataIndex": "company_name",
                         "text": "Company Name",
-                        "width": 282
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -495,7 +519,7 @@
                     "userConfig": {
                         "dataIndex": "company_email",
                         "text": "Company Email",
-                        "width": 320
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -515,7 +539,7 @@
                     "userConfig": {
                         "dataIndex": "company_phone",
                         "text": "Company Phone",
-                        "width": 292
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -535,12 +559,14 @@
                     "userConfig": {
                         "dataIndex": "company_street",
                         "hidden": true,
-                        "text": "Company Street"
+                        "text": "Company Street",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn17",
                     "designerId": "4ae77b93-3fb8-4a43-9b6e-b85cecc0fbdb"
@@ -555,12 +581,14 @@
                     "userConfig": {
                         "dataIndex": "company_city",
                         "hidden": true,
-                        "text": "Company City"
+                        "text": "Company City",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn18",
                     "designerId": "778d03cd-28b8-485e-9246-aec77a15ad38"
@@ -575,12 +603,14 @@
                     "userConfig": {
                         "dataIndex": "company_state",
                         "hidden": true,
-                        "text": "Company State"
+                        "text": "Company State",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn19",
                     "designerId": "862b1050-4adc-40b0-af51-298b6a94408d"
@@ -595,12 +625,14 @@
                     "userConfig": {
                         "dataIndex": "company_postal_code",
                         "hidden": true,
-                        "text": "Company Postal Code"
+                        "text": "Company Postal Code",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn20",
                     "designerId": "7426d766-2544-4c08-906b-8c34808180e7"
@@ -615,12 +647,14 @@
                     "userConfig": {
                         "dataIndex": "company_country",
                         "hidden": true,
-                        "text": "Company Country"
+                        "text": "Company Country",
+                        "width": 253
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
                         "hidden": "boolean",
-                        "text": "string"
+                        "text": "string",
+                        "width": "auto"
                     },
                     "name": "MyColumn21",
                     "designerId": "c3d98c9f-57de-4a7c-8ce5-f59f910d21d2"
