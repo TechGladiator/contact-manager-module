@@ -57,6 +57,12 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
             }
         },
         {
+            xtype: 'button',
+            margin: '10 10 0 1030',
+            width: 125,
+            text: 'Add Contact'
+        },
+        {
             xtype: 'gridpanel',
             frame: true,
             store: 'contacts.Store',

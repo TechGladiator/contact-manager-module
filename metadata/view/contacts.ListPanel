@@ -108,6 +108,26 @@
             ]
         },
         {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "margin": "10 10 0 1030",
+                "text": "Add Contact",
+                "width": 125
+            },
+            "configAlternates": {
+                "margin": "auto",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyButton23",
+            "designerId": "1c72c9d8-3fed-4d2d-9f04-4abc53ecbc5b"
+        },
+        {
             "type": "Ext.grid.Panel",
             "reference": {
                 "name": "items",
