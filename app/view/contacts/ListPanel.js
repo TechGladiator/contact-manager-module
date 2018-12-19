@@ -24,7 +24,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
         'Ext.menu.Item',
         'Ext.grid.Panel',
         'Ext.view.Table',
-        'Ext.grid.column.Column'
+        'Ext.grid.column.Check'
     ],
 
     viewModel: {
@@ -59,117 +59,72 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
         },
         {
             xtype: 'gridpanel',
+            frame: true,
             store: 'contacts.Store',
             columns: [
                 {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'title',
-                    text: 'Title'
+                    xtype: 'checkcolumn',
+                    width: 42,
+                    headerCheckbox: true
                 },
                 {
                     xtype: 'gridcolumn',
+                    width: 172,
                     dataIndex: 'first_name',
                     text: 'First Name'
                 },
                 {
                     xtype: 'gridcolumn',
-                    dataIndex: 'middle_name',
-                    text: 'Middle Name'
-                },
-                {
-                    xtype: 'gridcolumn',
+                    width: 198,
                     dataIndex: 'last_name',
                     text: 'Last Name'
                 },
                 {
                     xtype: 'gridcolumn',
-                    dataIndex: 'suffix',
-                    text: 'Suffix'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'gender',
-                    text: 'Gender'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_phone',
-                    text: 'Home Phone'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'mobile_phone',
-                    text: 'Mobile Phone'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'personal_email',
-                    text: 'Personal Email'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_street',
-                    text: 'Home Street'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_city',
-                    text: 'Home City'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_state',
-                    text: 'Home State'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_postal_code',
-                    text: 'Home Postal Code'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'home_country',
-                    text: 'Home Country'
-                },
-                {
-                    xtype: 'gridcolumn',
+                    width: 282,
                     dataIndex: 'company_name',
                     text: 'Company Name'
                 },
                 {
                     xtype: 'gridcolumn',
-                    dataIndex: 'company_phone',
-                    text: 'Company Phone'
-                },
-                {
-                    xtype: 'gridcolumn',
+                    width: 320,
                     dataIndex: 'company_email',
                     text: 'Company Email'
                 },
                 {
                     xtype: 'gridcolumn',
-                    dataIndex: 'company_street',
-                    text: 'Company Street'
-                },
+                    width: 292,
+                    dataIndex: 'company_phone',
+                    text: 'Company Phone'
+                }
+            ]
+        },
+        {
+            xtype: 'panel',
+            items: [
                 {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'company_city',
-                    text: 'Company City'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'company_state',
-                    text: 'Company State'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'company_postal_code',
-                    text: 'Company Postal Code'
-                },
-                {
-                    xtype: 'gridcolumn',
-                    dataIndex: 'company_country',
-                    text: 'Company Country'
+                    xtype: 'button',
+                    margin: 10,
+                    width: 125,
+                    text: '10 per page',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            }
+                        ]
+                    }
                 }
             ]
         }
