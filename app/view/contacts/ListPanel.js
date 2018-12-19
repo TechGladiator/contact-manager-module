@@ -30,6 +30,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
     viewModel: {
         type: 'contacts.listpanel'
     },
+    height: '100%',
 
     items: [
         {
