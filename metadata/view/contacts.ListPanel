@@ -149,11 +149,17 @@
                     "codeClass": null,
                     "userConfig": {
                         "headerCheckbox": true,
+                        "hideable": false,
+                        "menuDisabled": true,
+                        "sortable": false,
                         "width": 42
                     },
                     "configAlternates": {
                         "width": "auto",
-                        "headerCheckbox": "boolean"
+                        "headerCheckbox": "boolean",
+                        "hideable": "boolean",
+                        "menuDisabled": "boolean",
+                        "sortable": "boolean"
                     },
                     "name": "MyCheck",
                     "designerId": "d1233b55-702f-446c-a56d-b9626ef05d79"

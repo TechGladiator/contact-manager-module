@@ -65,6 +65,9 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                 {
                     xtype: 'checkcolumn',
                     width: 42,
+                    sortable: false,
+                    hideable: false,
+                    menuDisabled: true,
                     headerCheckbox: true
                 },
                 {
