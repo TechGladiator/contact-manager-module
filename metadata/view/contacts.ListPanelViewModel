@@ -1,17 +1,17 @@
 {
-    "type": "Ext.app.ViewController",
+    "type": "Ext.app.ViewModel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "contacts.gridpanel",
-        "designer|userClassName": "contacts.GridPanelViewController"
+        "designer|userAlias": "contacts.listpanel",
+        "designer|userClassName": "contacts.ListPanelViewModel"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "designerId": "e6059488-3ad2-49ed-948d-e84b95f01108"
+    "designerId": "22f648f2-0774-4484-9eeb-750b79b82f19"
 }

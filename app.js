@@ -29,9 +29,9 @@ Ext.application({
     views: [
         'main.Main',
         'import.ContactsImportPanel',
-        'contacts.GridPanel',
         'contacts.FieldMatcher',
-        'contacts.SummaryPanel'
+        'contacts.SummaryPanel',
+        'contacts.ListPanel'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',
