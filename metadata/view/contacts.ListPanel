@@ -7,12 +7,14 @@
     "codeClass": null,
     "userConfig": {
         "designer|userAlias": "contacts.listpanel",
-        "designer|userClassName": "contacts.ListPanel"
+        "designer|userClassName": "contacts.ListPanel",
+        "width": 1310
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string",
-        "height": "auto"
+        "height": "auto",
+        "width": "auto"
     },
     "name": "MyPanel27",
     "designerId": "0acfa584-76d3-4fcd-91a9-511251869df9",
