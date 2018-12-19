@@ -33,7 +33,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
     },
     items: [
         {
-            xtype: 'import.contactsimportpanel'
+            xtype: 'import.contactsimportpanel',
+            maxWidth: 1366
         }
     ]
 
