@@ -254,6 +254,16 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                         ]
                     }
                 }
+            ],
+            dockedItems: [
+                {
+                    xtype: 'panel',
+                    dock: 'right',
+                    html: '<b style="opacity: 0.3;"><<</b> <b>1 - 8</b> <b style="opacity: 0.3;">>></b>',
+                    margin: 10,
+                    padding: '8 0 0 60',
+                    width: 125
+                }
             ]
         }
     ]

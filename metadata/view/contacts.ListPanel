@@ -758,6 +758,30 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "right",
+                        "html": "<b style=\"opacity: 0.3;\"><<</b> <b>1 - 8</b> <b style=\"opacity: 0.3;\">>></b>",
+                        "margin": 10,
+                        "padding": "8 0 0 60",
+                        "width": 125
+                    },
+                    "configAlternates": {
+                        "dock": "string",
+                        "html": "string",
+                        "margin": "auto",
+                        "padding": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyPanel35",
+                    "designerId": "c6d6e078-c766-41b2-b0b1-59e854a31df3"
                 }
             ]
         }
