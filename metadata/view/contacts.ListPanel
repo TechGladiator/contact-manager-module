@@ -196,7 +196,7 @@
                         "dataIndex": "title",
                         "hidden": true,
                         "text": "Title",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -217,7 +217,7 @@
                     "userConfig": {
                         "dataIndex": "first_name",
                         "text": "First Name",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -238,7 +238,7 @@
                         "dataIndex": "middle_name",
                         "hidden": true,
                         "text": "Middle Name",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -259,7 +259,7 @@
                     "userConfig": {
                         "dataIndex": "last_name",
                         "text": "Last Name",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -280,7 +280,7 @@
                         "dataIndex": "suffix",
                         "hidden": true,
                         "text": "Suffix",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -302,7 +302,7 @@
                         "dataIndex": "gender",
                         "hidden": true,
                         "text": "Gender",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -324,7 +324,7 @@
                         "dataIndex": "home_phone",
                         "hidden": true,
                         "text": "Home Phone",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -346,7 +346,7 @@
                         "dataIndex": "mobile_phone",
                         "hidden": true,
                         "text": "Mobile Phone",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -368,7 +368,7 @@
                         "dataIndex": "personal_email",
                         "hidden": true,
                         "text": "Personal Email",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -390,7 +390,7 @@
                         "dataIndex": "home_street",
                         "hidden": true,
                         "text": "Home Street",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -412,7 +412,7 @@
                         "dataIndex": "home_city",
                         "hidden": true,
                         "text": "Home City",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -434,7 +434,7 @@
                         "dataIndex": "home_state",
                         "hidden": true,
                         "text": "Home State",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -456,7 +456,7 @@
                         "dataIndex": "home_postal_code",
                         "hidden": true,
                         "text": "Home Postal Code",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -478,7 +478,7 @@
                         "dataIndex": "home_country",
                         "hidden": true,
                         "text": "Home Country",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -499,7 +499,7 @@
                     "userConfig": {
                         "dataIndex": "company_name",
                         "text": "Company Name",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -519,7 +519,7 @@
                     "userConfig": {
                         "dataIndex": "company_email",
                         "text": "Company Email",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -539,7 +539,7 @@
                     "userConfig": {
                         "dataIndex": "company_phone",
                         "text": "Company Phone",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -560,7 +560,7 @@
                         "dataIndex": "company_street",
                         "hidden": true,
                         "text": "Company Street",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -582,7 +582,7 @@
                         "dataIndex": "company_city",
                         "hidden": true,
                         "text": "Company City",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -604,7 +604,7 @@
                         "dataIndex": "company_state",
                         "hidden": true,
                         "text": "Company State",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -626,7 +626,7 @@
                         "dataIndex": "company_postal_code",
                         "hidden": true,
                         "text": "Company Postal Code",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
@@ -648,7 +648,7 @@
                         "dataIndex": "company_country",
                         "hidden": true,
                         "text": "Company Country",
-                        "width": 253
+                        "width": 229
                     },
                     "configAlternates": {
                         "dataIndex": "datafield",
