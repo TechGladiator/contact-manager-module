@@ -72,15 +72,87 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'title',
+                    text: 'Title'
+                },
+                {
+                    xtype: 'gridcolumn',
                     width: 172,
                     dataIndex: 'first_name',
                     text: 'First Name'
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'middle_name',
+                    text: 'Middle Name'
+                },
+                {
+                    xtype: 'gridcolumn',
                     width: 198,
                     dataIndex: 'last_name',
                     text: 'Last Name'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'suffix',
+                    text: 'Suffix'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'gender',
+                    text: 'Gender'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_phone',
+                    text: 'Home Phone'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'mobile_phone',
+                    text: 'Mobile Phone'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'personal_email',
+                    text: 'Personal Email'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_street',
+                    text: 'Home Street'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_city',
+                    text: 'Home City'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_state',
+                    text: 'Home State'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_postal_code',
+                    text: 'Home Postal Code'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'home_country',
+                    text: 'Home Country'
                 },
                 {
                     xtype: 'gridcolumn',
@@ -99,6 +171,36 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     width: 292,
                     dataIndex: 'company_phone',
                     text: 'Company Phone'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'company_street',
+                    text: 'Company Street'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'company_city',
+                    text: 'Company City'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'company_state',
+                    text: 'Company State'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'company_postal_code',
+                    text: 'Company Postal Code'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    hidden: true,
+                    dataIndex: 'company_country',
+                    text: 'Company Country'
                 }
             ]
         },
