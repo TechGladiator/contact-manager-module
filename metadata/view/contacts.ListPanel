@@ -7,8 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userAlias": "contacts.listpanel",
-        "designer|userClassName": "contacts.ListPanel",
-        "height": "100%"
+        "designer|userClassName": "contacts.ListPanel"
     },
     "configAlternates": {
         "designer|userAlias": "string",
