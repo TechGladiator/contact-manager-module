@@ -658,6 +658,26 @@
                     },
                     "name": "MyColumn21",
                     "designerId": "c3d98c9f-57de-4a7c-8ce5-f59f910d21d2"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "sortable": false,
+                        "text": "Add Columns +",
+                        "width": 120
+                    },
+                    "configAlternates": {
+                        "sortable": "boolean",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyColumn22",
+                    "designerId": "95293da9-cedb-4452-9b73-bbaf2f03b43f"
                 }
             ]
         },

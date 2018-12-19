@@ -224,6 +224,12 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     width: 253,
                     dataIndex: 'company_country',
                     text: 'Company Country'
+                },
+                {
+                    xtype: 'gridcolumn',
+                    width: 120,
+                    sortable: false,
+                    text: 'Add Columns +'
                 }
             ]
         },
