@@ -25,14 +25,14 @@ Ext.define('ContactManagerModule.view.contacts.SummaryPanel', {
     viewModel: {
         type: 'contacts.summarypanel'
     },
-    height: 250,
-    width: 400,
+    frame: true,
+    width: 550,
     title: 'Import Summary',
 
     items: [
         {
             xtype: 'panel',
-            html: '<p><b>Total contacts in file: 1000</b></p>',
+            html: '<p><b>Total contacts in file: 1000</b></p><p><b>Contacts successfully imported: 500</b></p><p style="border-bottom: 1px solid #f1f1f1;">New additions: 500</p><p><b>Ignored contacts: 500</b></p><p>Duplicates: 0</p><p>Skipped: 0</p><p style="border-bottom: 1px solid #f1f1f1;">Invalid records: 0</p><p>Entries with empty \'Last Name\' fields are automatically ignored during import process</p>',
             padding: 15
         }
     ]

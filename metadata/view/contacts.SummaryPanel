@@ -6,16 +6,18 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|uiInterfaceName": "default-framed",
         "designer|userAlias": "contacts.summarypanel",
         "designer|userClassName": "contacts.SummaryPanel",
-        "height": 250,
+        "frame": true,
         "title": "Import Summary",
-        "width": 400
+        "width": 550
     },
     "configAlternates": {
+        "designer|uiInterfaceName": "string",
         "designer|userAlias": "string",
         "designer|userClassName": "string",
-        "height": "auto",
+        "frame": "boolean",
         "title": "string",
         "width": "auto"
     },
@@ -33,7 +35,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|displayName": "summaryDisplay",
-                "html": "<p><b>Total contacts in file: 1000</b></p>",
+                "html": "<p><b>Total contacts in file: 1000</b></p><p><b>Contacts successfully imported: 500</b></p><p style=\"border-bottom: 1px solid #f1f1f1;\">New additions: 500</p><p><b>Ignored contacts: 500</b></p><p>Duplicates: 0</p><p>Skipped: 0</p><p style=\"border-bottom: 1px solid #f1f1f1;\">Invalid records: 0</p><p>Entries with empty 'Last Name' fields are automatically ignored during import process</p>",
                 "padding": 15
             },
             "configAlternates": {
