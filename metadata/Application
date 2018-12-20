@@ -19,7 +19,8 @@
             "import.ContactsImportPanel",
             "contacts.FieldMatcher",
             "contacts.SummaryPanel",
-            "contacts.ListPanel"
+            "contacts.ListPanel",
+            "contacts.ContactPanel"
         ]
     },
     "configAlternates": {

@@ -1,0 +1,20 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contacts.contactpanel",
+        "designer|userClassName": "contacts.ContactPanel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "MyPanel36",
+    "designerId": "96b95d78-ff1a-43f6-aa99-6f404c5cf610",
+    "viewControllerInstanceId": "1784c182-2ed5-4102-b76b-0f4b97dbdc49",
+    "viewModelInstanceId": "0fe140dc-bff3-489f-8f0a-26faed671e89"
+}
