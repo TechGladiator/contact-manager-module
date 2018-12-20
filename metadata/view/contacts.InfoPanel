@@ -20,5 +20,55 @@
     "name": "MyPanel36",
     "designerId": "2048e2ec-690a-453e-9f3a-96e41d39f3be",
     "viewControllerInstanceId": "370da32f-3e06-488d-838b-b016464917d5",
-    "viewModelInstanceId": "215be27a-a975-48c9-8223-f5ab8f0db828"
+    "viewModelInstanceId": "215be27a-a975-48c9-8223-f5ab8f0db828",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "contactHeader",
+                "dock": "top",
+                "height": 57,
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "dock": "string",
+                "height": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyPanel36",
+            "designerId": "71121a23-2630-40cc-b373-7d1d11bbdf24",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "firstLetterIndex",
+                        "dock": "left",
+                        "html": "G",
+                        "margin": 10,
+                        "padding": 10
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string",
+                        "dock": "string",
+                        "html": "string",
+                        "margin": "auto",
+                        "padding": "auto"
+                    },
+                    "name": "MyPanel37",
+                    "designerId": "a09bf071-8b91-43d9-883a-d2d5dd0b91ed"
+                }
+            ]
+        }
+    ]
 }

@@ -18,7 +18,8 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
     alias: 'widget.contacts.infopanel',
 
     requires: [
-        'ContactManagerModule.view.contacts.InfoPanelViewModel'
+        'ContactManagerModule.view.contacts.InfoPanelViewModel',
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
@@ -28,6 +29,23 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
     layout: {
         type: 'vbox',
         align: 'stretch'
-    }
+    },
+    dockedItems: [
+        {
+            xtype: 'panel',
+            flex: 1,
+            dock: 'top',
+            height: 57,
+            dockedItems: [
+                {
+                    xtype: 'panel',
+                    dock: 'left',
+                    html: 'G',
+                    margin: 10,
+                    padding: 10
+                }
+            ]
+        }
+    ]
 
 });
