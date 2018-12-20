@@ -6,12 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "stretch",
         "designer|userAlias": "contacts.contactpanel",
-        "designer|userClassName": "contacts.ContactPanel"
+        "designer|userClassName": "contacts.ContactPanel",
+        "layout": "hbox"
     },
     "configAlternates": {
+        "container|align": "string",
         "designer|userAlias": "string",
-        "designer|userClassName": "string"
+        "designer|userClassName": "string",
+        "layout": "string"
     },
     "name": "MyPanel36",
     "designerId": "96b95d78-ff1a-43f6-aa99-6f404c5cf610",

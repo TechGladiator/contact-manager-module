@@ -23,6 +23,11 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
 
     viewModel: {
         type: 'contacts.contactpanel'
+    },
+
+    layout: {
+        type: 'hbox',
+        align: 'stretch'
     }
 
 });
