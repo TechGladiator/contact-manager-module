@@ -18,7 +18,9 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     alias: 'widget.contacts.contactpanel',
 
     requires: [
-        'ContactManagerModule.view.contacts.ContactPanelViewModel'
+        'ContactManagerModule.view.contacts.ContactPanelViewModel',
+        'ContactManagerModule.view.contacts.ListPanelNarrow',
+        'Ext.panel.Panel'
     ],
 
     viewModel: {
@@ -28,6 +30,13 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     layout: {
         type: 'hbox',
         align: 'stretch'
-    }
+    },
+    dockedItems: [
+        {
+            xtype: 'contacts.listpanelnarrow',
+            flex: 1,
+            dock: 'left'
+        }
+    ]
 
 });

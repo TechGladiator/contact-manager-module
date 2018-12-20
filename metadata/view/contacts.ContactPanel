@@ -20,5 +20,26 @@
     "name": "MyPanel36",
     "designerId": "96b95d78-ff1a-43f6-aa99-6f404c5cf610",
     "viewControllerInstanceId": "1784c182-2ed5-4102-b76b-0f4b97dbdc49",
-    "viewModelInstanceId": "0fe140dc-bff3-489f-8f0a-26faed671e89"
+    "viewModelInstanceId": "0fe140dc-bff3-489f-8f0a-26faed671e89",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "left",
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "dock": "string",
+                "layout|flex": "number"
+            },
+            "name": "contacts.listpanelnarrow",
+            "designerId": "4132c7e7-ab3a-47b7-8e50-287042da3038",
+            "masterInstanceId": "34e91739-d034-4805-bf5b-7c32b8584e5c"
+        }
+    ]
 }
