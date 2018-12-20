@@ -6,12 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "stretch",
         "designer|userAlias": "contacts.infopanel",
-        "designer|userClassName": "contacts.InfoPanel"
+        "designer|userClassName": "contacts.InfoPanel",
+        "layout": "vbox"
     },
     "configAlternates": {
+        "container|align": "string",
         "designer|userAlias": "string",
-        "designer|userClassName": "string"
+        "designer|userClassName": "string",
+        "layout": "string"
     },
     "name": "MyPanel36",
     "designerId": "2048e2ec-690a-453e-9f3a-96e41d39f3be",

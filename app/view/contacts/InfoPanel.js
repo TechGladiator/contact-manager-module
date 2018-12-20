@@ -23,6 +23,11 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
 
     viewModel: {
         type: 'contacts.infopanel'
+    },
+
+    layout: {
+        type: 'vbox',
+        align: 'stretch'
     }
 
 });
