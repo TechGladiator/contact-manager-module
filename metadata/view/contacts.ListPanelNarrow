@@ -117,7 +117,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "margin": "10 10 0 1030",
+                "margin": "10 0 0 220",
                 "text": "Add Contact",
                 "width": 125
             },

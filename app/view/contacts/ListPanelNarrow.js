@@ -59,7 +59,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
         },
         {
             xtype: 'button',
-            margin: '10 10 0 1030',
+            margin: '10 0 0 220',
             width: 125,
             text: 'Add Contact'
         },
