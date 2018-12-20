@@ -34,7 +34,7 @@ Ext.application({
         'contacts.ListPanel',
         'contacts.ContactPanel',
         'contacts.ListPanelNarrow',
-        'contacts.Info'
+        'contacts.InfoPanel'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',

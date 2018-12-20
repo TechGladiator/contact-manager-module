@@ -1,17 +1,17 @@
 {
-    "type": "Ext.app.ViewModel",
+    "type": "Ext.app.ViewController",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "contacts.info",
-        "designer|userClassName": "contacts.InfoViewModel"
+        "designer|userAlias": "contacts.infopanel",
+        "designer|userClassName": "contacts.InfoPanelViewController"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "designerId": "215be27a-a975-48c9-8223-f5ab8f0db828"
+    "designerId": "370da32f-3e06-488d-838b-b016464917d5"
 }

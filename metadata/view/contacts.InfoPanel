@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "contacts.info",
-        "designer|userClassName": "contacts.Info"
+        "designer|userAlias": "contacts.infopanel",
+        "designer|userClassName": "contacts.InfoPanel"
     },
     "configAlternates": {
         "designer|userAlias": "string",

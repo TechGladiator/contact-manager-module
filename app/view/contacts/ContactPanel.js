@@ -20,7 +20,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     requires: [
         'ContactManagerModule.view.contacts.ContactPanelViewModel',
         'ContactManagerModule.view.contacts.ListPanelNarrow',
-        'ContactManagerModule.view.contacts.Info',
+        'ContactManagerModule.view.contacts.InfoPanel',
         'Ext.panel.Panel'
     ],
 
@@ -41,7 +41,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     ],
     items: [
         {
-            xtype: 'contacts.info',
+            xtype: 'contacts.infopanel',
             flex: 1
         }
     ]

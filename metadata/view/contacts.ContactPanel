@@ -54,7 +54,7 @@
             "configAlternates": {
                 "layout|flex": "number"
             },
-            "name": "contacts.info",
+            "name": "contacts.InfoPanel",
             "designerId": "fdcc45f6-8f59-4a9c-af35-457b1a50ff3d",
             "masterInstanceId": "2048e2ec-690a-453e-9f3a-96e41d39f3be"
         }
