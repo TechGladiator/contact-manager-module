@@ -40,6 +40,23 @@
             "name": "contacts.listpanelnarrow",
             "designerId": "4132c7e7-ab3a-47b7-8e50-287042da3038",
             "masterInstanceId": "34e91739-d034-4805-bf5b-7c32b8584e5c"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "layout|flex": "number"
+            },
+            "name": "contacts.info",
+            "designerId": "fdcc45f6-8f59-4a9c-af35-457b1a50ff3d",
+            "masterInstanceId": "2048e2ec-690a-453e-9f3a-96e41d39f3be"
         }
     ]
 }

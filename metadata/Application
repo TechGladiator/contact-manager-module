@@ -21,7 +21,8 @@
             "contacts.SummaryPanel",
             "contacts.ListPanel",
             "contacts.ContactPanel",
-            "contacts.ListPanelNarrow"
+            "contacts.ListPanelNarrow",
+            "contacts.Info"
         ]
     },
     "configAlternates": {
