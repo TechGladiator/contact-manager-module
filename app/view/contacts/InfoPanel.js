@@ -25,6 +25,7 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
     viewModel: {
         type: 'contacts.infopanel'
     },
+    frame: true,
 
     layout: {
         type: 'vbox',
@@ -43,6 +44,29 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
                     html: '<div style="width: 45px;height: 45px;padding: 12.5px 12.5px;border-radius: 50%;background-color: #5fa2dd;color: #0000007a;"><h1 style="display: unset;">G</h1></div>',
                     margin: 10,
                     padding: 10
+                },
+                {
+                    xtype: 'panel',
+                    dock: 'left',
+                    layout: {
+                        type: 'vbox',
+                        align: 'stretch'
+                    },
+                    dockedItems: [
+                        {
+                            xtype: 'panel',
+                            dock: 'left',
+                            html: '<div style="font-size: x-large;"><p>Gregg Gillson</p></div>',
+                            maxHeight: 50,
+                            width: 145
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            dock: 'bottom',
+                            html: '<div><b>Rev at </b><b style="color: #0000ffad;">Eabox</b></div>'
+                        }
+                    ]
                 }
             ]
         }

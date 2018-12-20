@@ -7,15 +7,19 @@
     "codeClass": null,
     "userConfig": {
         "container|align": "stretch",
+        "designer|uiInterfaceName": "default-framed",
         "designer|userAlias": "contacts.infopanel",
         "designer|userClassName": "contacts.InfoPanel",
+        "frame": true,
         "layout": "vbox"
     },
     "configAlternates": {
         "container|align": "string",
         "designer|userAlias": "string",
         "designer|userClassName": "string",
-        "layout": "string"
+        "layout": "string",
+        "designer|uiInterfaceName": "string",
+        "frame": "boolean"
     },
     "name": "MyPanel36",
     "designerId": "2048e2ec-690a-453e-9f3a-96e41d39f3be",
@@ -61,12 +65,77 @@
                     "configAlternates": {
                         "designer|displayName": "string",
                         "dock": "string",
-                        "html": "string",
                         "margin": "auto",
-                        "padding": "auto"
+                        "padding": "auto",
+                        "html": "string"
                     },
                     "name": "MyPanel37",
                     "designerId": "a09bf071-8b91-43d9-883a-d2d5dd0b91ed"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "dock": "left",
+                        "layout": "vbox"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "container|align": "string",
+                        "dock": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyPanel39",
+                    "designerId": "466a1f2f-85b3-4c80-a3cd-c487c75dc8f5",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "left",
+                                "html": "<div style=\"font-size: x-large;\"><p>Gregg Gillson</p></div>",
+                                "maxHeight": 50,
+                                "width": 145
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "maxHeight": "number",
+                                "width": "auto",
+                                "html": "string"
+                            },
+                            "name": "MyPanel38",
+                            "designerId": "6dcd718a-9a58-4a0c-a76e-0e1957118926"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "bottom",
+                                "html": "<div><b>Rev at </b><b style=\"color: #0000ffad;\">Eabox</b></div>",
+                                "layout|flex": 1
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "html": "string",
+                                "layout|flex": "number"
+                            },
+                            "name": "MyPanel40",
+                            "designerId": "56260d46-e574-471a-beb6-0d9140361739"
+                        }
+                    ]
                 }
             ]
         }
