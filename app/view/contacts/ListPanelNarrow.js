@@ -86,6 +86,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    resizable: false,
                     width: 229,
                     dataIndex: 'first_name',
                     menuDisabled: true,
@@ -101,6 +102,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    resizable: false,
                     width: 229,
                     dataIndex: 'last_name',
                     menuDisabled: true,
@@ -188,6 +190,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
                     width: 229,
                     dataIndex: 'company_name',
                     menuDisabled: true,
@@ -195,6 +198,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
                     width: 229,
                     dataIndex: 'company_email',
                     menuDisabled: true,
@@ -202,6 +206,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
                     width: 229,
                     dataIndex: 'company_phone',
                     menuDisabled: true,
@@ -249,6 +254,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    hidden: true,
                     width: 120,
                     sortable: false,
                     text: 'Add Columns +'

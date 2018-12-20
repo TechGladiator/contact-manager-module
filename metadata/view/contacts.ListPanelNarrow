@@ -219,6 +219,7 @@
                     "userConfig": {
                         "dataIndex": "first_name",
                         "menuDisabled": true,
+                        "resizable": false,
                         "text": "First Name",
                         "width": 229
                     },
@@ -226,7 +227,8 @@
                         "dataIndex": "datafield",
                         "menuDisabled": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "resizable": "boolean"
                     },
                     "name": "MyColumn1",
                     "designerId": "cb1eba63-78d0-417e-a487-8056bc94db89"
@@ -265,6 +267,7 @@
                     "userConfig": {
                         "dataIndex": "last_name",
                         "menuDisabled": true,
+                        "resizable": false,
                         "text": "Last Name",
                         "width": 229
                     },
@@ -272,7 +275,8 @@
                         "dataIndex": "datafield",
                         "menuDisabled": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "resizable": "boolean"
                     },
                     "name": "MyColumn3",
                     "designerId": "502bef38-389a-4c45-a2d0-b7d41cc20b96"
@@ -526,6 +530,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_name",
+                        "hidden": true,
                         "menuDisabled": true,
                         "text": "Company Name",
                         "width": 229
@@ -534,7 +539,8 @@
                         "dataIndex": "datafield",
                         "menuDisabled": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "hidden": "boolean"
                     },
                     "name": "MyColumn14",
                     "designerId": "e76496d0-5abf-44e9-8150-bdce5c9fd93e"
@@ -548,6 +554,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_email",
+                        "hidden": true,
                         "menuDisabled": true,
                         "text": "Company Email",
                         "width": 229
@@ -556,7 +563,8 @@
                         "dataIndex": "datafield",
                         "menuDisabled": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "hidden": "boolean"
                     },
                     "name": "MyColumn16",
                     "designerId": "21998bbb-77ad-4a20-a855-0466f056121b"
@@ -570,6 +578,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "company_phone",
+                        "hidden": true,
                         "menuDisabled": true,
                         "text": "Company Phone",
                         "width": 229
@@ -578,7 +587,8 @@
                         "dataIndex": "datafield",
                         "menuDisabled": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "hidden": "boolean"
                     },
                     "name": "MyColumn15",
                     "designerId": "21f65404-6c96-49df-a083-c9af00645e30"
@@ -711,6 +721,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "hidden": true,
                         "sortable": false,
                         "text": "Add Columns +",
                         "width": 120
@@ -718,7 +729,8 @@
                     "configAlternates": {
                         "sortable": "boolean",
                         "text": "string",
-                        "width": "auto"
+                        "width": "auto",
+                        "hidden": "boolean"
                     },
                     "name": "MyColumn22",
                     "designerId": "17441721-2fff-4ff3-9e26-113c808140bd"
