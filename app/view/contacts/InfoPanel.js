@@ -35,12 +35,12 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
             xtype: 'panel',
             flex: 1,
             dock: 'top',
-            height: 57,
+            height: 85,
             dockedItems: [
                 {
                     xtype: 'panel',
                     dock: 'left',
-                    html: 'G',
+                    html: '<div style="width: 45px;height: 45px;padding: 12.5px 12.5px;border-radius: 50%;background-color: #0000ff57;color: #0000007a;"><h1 style="display: unset;">G</h1></div>',
                     margin: 10,
                     padding: 10
                 }
