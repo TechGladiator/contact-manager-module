@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userAlias": "contacts.listpanelnarrow",
         "designer|userClassName": "contacts.ListPanelNarrow",
-        "width": 1310
+        "width": 503
     },
     "configAlternates": {
         "designer|userAlias": "string",

@@ -30,7 +30,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
     viewModel: {
         type: 'contacts.listpanelnarrow'
     },
-    width: 1310,
+    width: 503,
 
     items: [
         {
