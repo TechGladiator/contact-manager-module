@@ -32,7 +32,8 @@ Ext.application({
         'contacts.FieldMatcher',
         'contacts.SummaryPanel',
         'contacts.ListPanel',
-        'contacts.ContactPanel'
+        'contacts.ContactPanel',
+        'contacts.ListPanelNarrow'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',

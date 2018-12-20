@@ -20,7 +20,8 @@
             "contacts.FieldMatcher",
             "contacts.SummaryPanel",
             "contacts.ListPanel",
-            "contacts.ContactPanel"
+            "contacts.ContactPanel",
+            "contacts.ListPanelNarrow"
         ]
     },
     "configAlternates": {

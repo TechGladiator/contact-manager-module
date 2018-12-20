@@ -1,0 +1,18 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contacts.listpanelnarrow",
+        "designer|userClassName": "contacts.ListPanelViewModel1"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "contacts.ListPanelViewModel1",
+    "designerId": "0d998c53-2c1d-4801-96bc-125203e7ec72"
+}
