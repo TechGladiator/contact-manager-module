@@ -36,7 +36,7 @@
             "userConfig": {
                 "designer|displayName": "contactHeader",
                 "dock": "top",
-                "height": 85,
+                "height": 125,
                 "layout|flex": 1
             },
             "configAlternates": {
@@ -134,6 +134,158 @@
                             },
                             "name": "MyPanel40",
                             "designerId": "56260d46-e574-471a-beb6-0d9140361739"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "height": 40,
+                        "html": "<div style=\"margin: 10px 0 0 85px;font-size: 14px;\"><span style=\"color: #0000ffad;\">igillson0@imageshack.us</span><span> (225) 7562539 (405) 8831857</span></div>"
+                    },
+                    "configAlternates": {
+                        "dock": "string",
+                        "height": "auto",
+                        "html": "string"
+                    },
+                    "name": "MyPanel41",
+                    "designerId": "2e9ed85b-c4f4-4111-97fc-f5c5fed28d04"
+                }
+            ]
+        },
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0,
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "activeTab": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyTabPanel",
+            "designerId": "aa8f17e9-d0fd-4421-8785-68ea9c5fb409",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Summary"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel42",
+                    "designerId": "2d9aade7-1995-4edc-b9af-4bfb22683745",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig",
+                            "designerId": "917545f1-e275-4614-b402-a4c7f5781d3c"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "default-framed",
+                                "frame": true,
+                                "height": 130,
+                                "html": "<div style=\"margin: 15px;font-size: 16px;\"><p>9862 Mifflin Way</p><p>Oklahoma City OK, 73119</p></div>",
+                                "margin": 10,
+                                "title": "Address",
+                                "width": 400
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "frame": "boolean",
+                                "height": "auto",
+                                "html": "string",
+                                "margin": "auto",
+                                "title": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyPanel45",
+                            "designerId": "309f101a-6174-4d4d-904e-1a9a807a3e7b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Tasks"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel43",
+                    "designerId": "a60e741c-41ff-46b0-9f29-e7e93a5c525e",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig1",
+                            "designerId": "2d0428ca-91d9-47c9-b336-d1b57b84c1be"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Notes"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel44",
+                    "designerId": "b933d5d6-2f37-4052-a1d7-eabf52ac0f8f",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "ec3d4375-21fb-4f64-ab6c-55bae73632b0"
                         }
                     ]
                 }

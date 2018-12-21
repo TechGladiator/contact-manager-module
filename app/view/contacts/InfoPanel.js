@@ -19,7 +19,8 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
 
     requires: [
         'ContactManagerModule.view.contacts.InfoPanelViewModel',
-        'Ext.panel.Panel'
+        'Ext.tab.Panel',
+        'Ext.tab.Tab'
     ],
 
     viewModel: {
@@ -36,7 +37,7 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
             xtype: 'panel',
             flex: 1,
             dock: 'top',
-            height: 85,
+            height: 125,
             dockedItems: [
                 {
                     xtype: 'panel',
@@ -67,6 +68,44 @@ Ext.define('ContactManagerModule.view.contacts.InfoPanel', {
                             html: '<div><b>Rev at </b><b style="color: #0000ffad;">Eabox</b></div>'
                         }
                     ]
+                },
+                {
+                    xtype: 'panel',
+                    dock: 'bottom',
+                    height: 40,
+                    html: '<div style="margin: 10px 0 0 85px;font-size: 14px;"><span style="color: #0000ffad;">igillson0@imageshack.us</span><span> (225) 7562539 (405) 8831857</span></div>'
+                }
+            ]
+        }
+    ],
+    items: [
+        {
+            xtype: 'tabpanel',
+            flex: 1,
+            activeTab: 0,
+            items: [
+                {
+                    xtype: 'panel',
+                    title: 'Summary',
+                    items: [
+                        {
+                            xtype: 'panel',
+                            frame: true,
+                            height: 130,
+                            html: '<div style="margin: 15px;font-size: 16px;"><p>9862 Mifflin Way</p><p>Oklahoma City OK, 73119</p></div>',
+                            margin: 10,
+                            width: 400,
+                            title: 'Address'
+                        }
+                    ]
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Tasks'
+                },
+                {
+                    xtype: 'panel',
+                    title: 'Notes'
                 }
             ]
         }
