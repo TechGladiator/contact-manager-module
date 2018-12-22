@@ -40,8 +40,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
         },
         {
             xtype: 'contacts.contactpanel',
-            flex: 1,
-            width: 1366
+            width: 1366,
+            flex: 1
         }
     ]
 

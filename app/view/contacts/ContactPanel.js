@@ -35,8 +35,8 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     dockedItems: [
         {
             xtype: 'contacts.listpanelnarrow',
-            flex: 1,
-            dock: 'left'
+            dock: 'left',
+            flex: 1
         }
     ],
     items: [
