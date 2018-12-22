@@ -19,6 +19,8 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
 
     requires: [
         'ContactManagerModule.view.contacts.AddContactViewModel',
+        'Ext.tab.Panel',
+        'Ext.tab.Tab',
         'Ext.form.Panel',
         'Ext.form.field.Text'
     ],
@@ -26,60 +28,148 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
     viewModel: {
         type: 'contacts.addcontact'
     },
+    frame: true,
     width: 400,
     title: 'Add New Contact',
 
+    layout: {
+        type: 'vbox',
+        align: 'stretch'
+    },
     items: [
         {
-            xtype: 'form',
-            height: 400,
-            scrollable: 'true',
-            bodyPadding: 10,
+            xtype: 'tabpanel',
+            margin: '10 0 0',
+            activeTab: 0,
             items: [
                 {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Title'
+                    xtype: 'panel',
+                    bodyPadding: 10,
+                    title: 'Personal',
+                    items: [
+                        {
+                            xtype: 'form',
+                            margin: '10 0 0',
+                            items: [
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'First Name'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Last Name*'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Title'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Company Name'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'First Name'
+                    xtype: 'panel',
+                    bodyPadding: 10,
+                    title: 'Contact Info',
+                    items: [
+                        {
+                            xtype: 'form',
+                            margin: '10 0 0',
+                            items: [
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Company Email'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Company Phone'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Mobile Phone'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Home Phone'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Middle Name'
+                    xtype: 'panel',
+                    bodyPadding: 10,
+                    title: 'Address',
+                    items: [
+                        {
+                            xtype: 'form',
+                            margin: '10 0 0',
+                            items: [
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Street Address'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'City'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'State'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Zip Code'
+                                },
+                                {
+                                    xtype: 'textfield',
+                                    anchor: '100%',
+                                    fieldLabel: 'Country'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    dockedItems: [
+        {
+            xtype: 'panel',
+            flex: 1,
+            dock: 'bottom',
+            layout: {
+                type: 'hbox',
+                align: 'stretch'
+            },
+            items: [
+                {
+                    xtype: 'button',
+                    flex: 1,
+                    margin: 10,
+                    text: 'Save'
                 },
                 {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Last Name*'
-                },
-                {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Suffix'
-                },
-                {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Gender'
-                },
-                {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Home Phone'
-                },
-                {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Mobile Phone'
-                },
-                {
-                    xtype: 'textfield',
-                    anchor: '100%',
-                    fieldLabel: 'Personal Email'
+                    xtype: 'button',
+                    flex: 1,
+                    margin: 10,
+                    text: 'cancel'
                 }
             ]
         }

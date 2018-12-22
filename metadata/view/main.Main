@@ -6,11 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "container|align": "center",
         "designer|initialView": true,
         "designer|userAlias": "main.main",
         "designer|userClassName": "main.Main",
-        "layout": "vbox"
+        "layout": "center"
     },
     "configAlternates": {
         "designer|initialView": "boolean",
@@ -51,16 +50,34 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|flex": 1,
+                "hidden": true,
                 "width": 1366
             },
             "configAlternates": {
                 "layout|flex": "number",
-                "width": "auto"
+                "width": "auto",
+                "hidden": "boolean"
             },
             "name": "contacts.contactpanel",
             "designerId": "3eaeacc9-8a49-437d-a756-abdfdd697ffa",
             "masterInstanceId": "96b95d78-ff1a-43f6-aa99-6f404c5cf610"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": null
+            },
+            "configAlternates": {
+                "dock": "string"
+            },
+            "name": "contacts.addcontact",
+            "designerId": "f6c9952c-68db-4a33-a46e-2dde037d8492",
+            "masterInstanceId": "5fd2fd05-192f-46a4-81f0-5331ad26276d"
         }
     ]
 }

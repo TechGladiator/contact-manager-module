@@ -21,17 +21,15 @@ Ext.define('ContactManagerModule.view.main.Main', {
         'ContactManagerModule.view.main.MainViewModel',
         'ContactManagerModule.view.import.ContactsImportPanel',
         'ContactManagerModule.view.contacts.ContactPanel',
+        'ContactManagerModule.view.contacts.AddContact',
         'Ext.panel.Panel'
     ],
 
     viewModel: {
         type: 'main.main'
     },
+    layout: 'center',
 
-    layout: {
-        type: 'vbox',
-        align: 'center'
-    },
     items: [
         {
             xtype: 'import.contactsimportpanel',
@@ -40,8 +38,11 @@ Ext.define('ContactManagerModule.view.main.Main', {
         },
         {
             xtype: 'contacts.contactpanel',
-            width: 1366,
-            flex: 1
+            hidden: true,
+            width: 1366
+        },
+        {
+            xtype: 'contacts.addcontact'
         }
     ]
 
