@@ -22,7 +22,8 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
         'Ext.tab.Panel',
         'Ext.tab.Tab',
         'Ext.form.Panel',
-        'Ext.form.field.Text'
+        'Ext.form.field.Text',
+        'Ext.button.Split'
     ],
 
     viewModel: {
@@ -85,24 +86,126 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
                             margin: '10 0 0',
                             items: [
                                 {
-                                    xtype: 'textfield',
-                                    anchor: '100%',
-                                    fieldLabel: 'Company Email'
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Company Email'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 220
+                                        }
+                                    ]
                                 },
                                 {
-                                    xtype: 'textfield',
-                                    anchor: '100%',
-                                    fieldLabel: 'Company Phone'
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Personal Email'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 225
+                                        }
+                                    ]
                                 },
                                 {
-                                    xtype: 'textfield',
-                                    anchor: '100%',
-                                    fieldLabel: 'Mobile Phone'
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Home Email'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 240
+                                        }
+                                    ]
                                 },
                                 {
-                                    xtype: 'textfield',
-                                    anchor: '100%',
-                                    fieldLabel: 'Home Phone'
+                                    xtype: 'panel',
+                                    html: '<div><button style="border-width: 0;border-radius: 50%;background-color: #5fa2dd;">+</button> Add Email</div>',
+                                    margin: '0 0 10'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Company Phone'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 215
+                                        }
+                                    ]
+                                },
+                                {
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Desk Phone'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 241
+                                        }
+                                    ]
+                                },
+                                {
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Mobile Phone'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 230
+                                        }
+                                    ]
+                                },
+                                {
+                                    xtype: 'panel',
+                                    layout: 'column',
+                                    items: [
+                                        {
+                                            xtype: 'splitbutton',
+                                            margin: '0 0 10',
+                                            text: 'Home Phone'
+                                        },
+                                        {
+                                            xtype: 'textfield',
+                                            margin: '0 0 0 15',
+                                            width: 234
+                                        }
+                                    ]
+                                },
+                                {
+                                    xtype: 'panel',
+                                    html: '<div><button style="border-width: 0;border-radius: 50%;background-color: #5fa2dd;">+</button> Add Phone</div>',
+                                    margin: '0 0 10'
                                 }
                             ]
                         }

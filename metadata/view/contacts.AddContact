@@ -217,76 +217,418 @@
                             "designerId": "7b3061af-5e6d-473c-9884-24d85f52dab1",
                             "cn": [
                                 {
-                                    "type": "Ext.form.field.Text",
+                                    "type": "Ext.panel.Panel",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "fieldLabel": "Company Email",
-                                        "layout|anchor": "100%"
+                                        "layout": "column"
                                     },
                                     "configAlternates": {
-                                        "fieldLabel": "string",
-                                        "layout|anchor": "string"
+                                        "layout": "string"
                                     },
-                                    "name": "MyTextField",
-                                    "designerId": "3a67bde5-bb48-4237-9db5-74409ed4cd3a"
+                                    "name": "MyPanel52",
+                                    "designerId": "df1873cd-646e-4f6c-bc17-a4439835cc86",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Company Email"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "393eeffe-07ef-4855-88e2-7e9e50fd1c93"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 220
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "c4a0f8ec-173c-4ef6-8fb6-5685c3b72c97"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "Ext.form.field.Text",
+                                    "type": "Ext.panel.Panel",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "fieldLabel": "Company Phone",
-                                        "layout|anchor": "100%"
+                                        "layout": "column"
                                     },
                                     "configAlternates": {
-                                        "fieldLabel": "string",
-                                        "layout|anchor": "string"
+                                        "layout": "string"
                                     },
-                                    "name": "MyTextField3",
-                                    "designerId": "6293be17-5376-48ca-8bd3-6cff5867547f"
+                                    "name": "MyPanel54",
+                                    "designerId": "ea2c0a0d-4cd8-452b-916a-5e11dee9687f",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Personal Email"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "78c2aab4-2edb-43e7-a83f-56682962b77e"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 225
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "e46a2a0a-68e5-4b1e-80b7-12d8eccd1099"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "Ext.form.field.Text",
+                                    "type": "Ext.panel.Panel",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "fieldLabel": "Mobile Phone",
-                                        "layout|anchor": "100%"
+                                        "layout": "column"
                                     },
                                     "configAlternates": {
-                                        "fieldLabel": "string",
-                                        "layout|anchor": "string"
+                                        "layout": "string"
                                     },
-                                    "name": "MyTextField1",
-                                    "designerId": "caf8eda2-63ea-4321-a61e-982fa002e947"
+                                    "name": "MyPanel53",
+                                    "designerId": "bbd4e62b-5a5a-4595-8192-b83e6bf08d89",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Home Email"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "2f432ade-add4-48ff-b4fc-2e9e021e5f0c"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 240
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "7f0e01f6-8d37-4aef-b67b-71550b06adbf"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "Ext.form.field.Text",
+                                    "type": "Ext.panel.Panel",
                                     "reference": {
                                         "name": "items",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "fieldLabel": "Home Phone",
-                                        "layout|anchor": "100%"
+                                        "html": "<div><button style=\"border-width: 0;border-radius: 50%;background-color: #5fa2dd;\">+</button> Add Email</div>",
+                                        "margin": "0 0 10"
                                     },
                                     "configAlternates": {
-                                        "fieldLabel": "string",
-                                        "layout|anchor": "string"
+                                        "html": "string",
+                                        "margin": "auto"
                                     },
-                                    "name": "MyTextField9",
-                                    "designerId": "c791e9f4-3805-4224-92f1-84bc7da6660b"
+                                    "name": "MyPanel46",
+                                    "designerId": "4ad73703-f165-40b4-9d60-1b99517d71ec"
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "column"
+                                    },
+                                    "configAlternates": {
+                                        "layout": "string"
+                                    },
+                                    "name": "MyPanel55",
+                                    "designerId": "d2be37f3-f936-446a-9b9e-1b41b762eb2d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Company Phone"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "7e5fa51a-e7fe-4564-b6b9-2cf7ee0c9ff4"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 215
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "81525e2a-dbfd-48a9-b889-1cd8a74c316a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "column"
+                                    },
+                                    "configAlternates": {
+                                        "layout": "string"
+                                    },
+                                    "name": "MyPanel56",
+                                    "designerId": "3a921eee-edcc-4d1e-9961-76bea0bb9e31",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Desk Phone"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "7a014353-5c8c-4799-a03e-85d01d78f39f"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 241
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "8c170500-6a11-45d2-ade6-3eb70c937dbf"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "column"
+                                    },
+                                    "configAlternates": {
+                                        "layout": "string"
+                                    },
+                                    "name": "MyPanel57",
+                                    "designerId": "88ce4452-0312-4d02-88d1-cededbde1530",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Mobile Phone"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "c8f8d9f8-11c1-4d20-b6a1-9d78fa1e9526"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 230
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "ca77b80c-904a-4abe-a202-9bb07b0d9b51"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout": "column"
+                                    },
+                                    "configAlternates": {
+                                        "layout": "string"
+                                    },
+                                    "name": "MyPanel58",
+                                    "designerId": "2db260b0-fd89-4dfa-a560-4527d11bac8d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Split",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 10",
+                                                "text": "Home Phone"
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "text": "string"
+                                            },
+                                            "name": "MySplitButton",
+                                            "designerId": "bcaac0aa-626b-4a38-99c8-4fd327edc388"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Text",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "margin": "0 0 0 15",
+                                                "width": 234
+                                            },
+                                            "configAlternates": {
+                                                "margin": "auto",
+                                                "width": "auto"
+                                            },
+                                            "name": "MyTextField5",
+                                            "designerId": "c5e6a329-3fdb-4036-bc09-1fb352c880e5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.panel.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<div><button style=\"border-width: 0;border-radius: 50%;background-color: #5fa2dd;\">+</button> Add Phone</div>",
+                                        "margin": "0 0 10"
+                                    },
+                                    "configAlternates": {
+                                        "html": "string",
+                                        "margin": "auto"
+                                    },
+                                    "name": "MyPanel51",
+                                    "designerId": "2a1a7d5e-c61a-468a-b188-1c1146710523"
                                 }
                             ]
                         }
