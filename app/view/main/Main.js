@@ -18,32 +18,12 @@ Ext.define('ContactManagerModule.view.main.Main', {
     alias: 'widget.main.main',
 
     requires: [
-        'ContactManagerModule.view.main.MainViewModel',
-        'ContactManagerModule.view.contacts.ContactsImportPanel',
-        'ContactManagerModule.view.contacts.ContactPanel',
-        'ContactManagerModule.view.contacts.AddContact',
-        'Ext.panel.Panel'
+        'ContactManagerModule.view.main.MainViewModel'
     ],
 
     viewModel: {
         type: 'main.main'
     },
-    layout: 'center',
-
-    items: [
-        {
-            xtype: 'contacts.contactsimportpanel',
-            hidden: true,
-            maxWidth: 1366
-        },
-        {
-            xtype: 'contacts.contactpanel',
-            hidden: true,
-            width: 1366
-        },
-        {
-            xtype: 'contacts.addcontact'
-        }
-    ]
+    layout: 'center'
 
 });
