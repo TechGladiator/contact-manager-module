@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "import.contactsimportpanel",
-        "designer|userClassName": "import.ContactsImportPanelViewModel"
+        "designer|userAlias": "contacts.contactsimportpanel",
+        "designer|userClassName": "contacts.ContactsImportPanelViewModel"
     },
     "configAlternates": {
         "designer|userAlias": "string",

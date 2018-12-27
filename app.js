@@ -28,7 +28,7 @@ Ext.application({
     ],
     views: [
         'main.Main',
-        'import.ContactsImportPanel',
+        'contacts.ContactsImportPanel',
         'contacts.FieldMatcher',
         'contacts.SummaryPanel',
         'contacts.ListPanel',

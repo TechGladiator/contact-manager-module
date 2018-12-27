@@ -16,7 +16,7 @@
         "title": "Contact Manager Module",
         "views": [
             "main.Main",
-            "import.ContactsImportPanel",
+            "contacts.ContactsImportPanel",
             "contacts.FieldMatcher",
             "contacts.SummaryPanel",
             "contacts.ListPanel",

@@ -8,8 +8,8 @@
     "userConfig": {
         "container|align": "stretch",
         "designer|uiInterfaceName": "default-framed",
-        "designer|userAlias": "import.contactsimportpanel",
-        "designer|userClassName": "import.ContactsImportPanel",
+        "designer|userAlias": "contacts.contactsimportpanel",
+        "designer|userClassName": "contacts.ContactsImportPanel",
         "frame": true,
         "id": "contactsImportPanel",
         "layout": "hbox",
