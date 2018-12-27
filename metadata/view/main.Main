@@ -6,10 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "center",
         "designer|initialView": true,
         "designer|userAlias": "main.main",
         "designer|userClassName": "main.Main",
-        "layout": "center"
+        "layout": "vbox"
     },
     "configAlternates": {
         "designer|initialView": "boolean",
@@ -21,5 +22,24 @@
     "name": "MyViewport",
     "designerId": "8c6b6bff-d1be-4cf4-9f2a-f3a53392152d",
     "viewControllerInstanceId": "a94890e7-f4af-4bb0-bee4-e22d813e6b4f",
-    "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce"
+    "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 1366
+            },
+            "configAlternates": {
+                "width": "auto"
+            },
+            "name": "contacts.contactsimportpanel",
+            "designerId": "6444b85e-c465-4bf3-a28b-71695fc87e28",
+            "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
+        }
+    ]
 }
