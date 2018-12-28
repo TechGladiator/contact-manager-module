@@ -30,7 +30,6 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
     frame: true,
     id: 'contactsImportPanel',
     minHeight: 200,
-    width: '100%',
     title: 'Import Contacts and Organizations',
     titleAlign: 'center',
 

@@ -19,7 +19,9 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     requires: [
         'ContactManagerModule.view.main.MainViewModel',
-        'ContactManagerModule.view.contacts.ListPanel',
+        'ContactManagerModule.view.contacts.EmptyList',
+        'ContactManagerModule.view.contacts.AddContact',
+        'ContactManagerModule.view.contacts.ContactsImportPanel',
         'Ext.panel.Panel'
     ],
 
@@ -29,27 +31,33 @@ Ext.define('ContactManagerModule.view.main.Main', {
 
     layout: {
         type: 'vbox',
-        align: 'center'
+        align: 'stretch'
     },
     items: [
         {
             xtype: 'panel',
             flex: 1,
-            width: '100%',
+            maxWidth: 1366,
             layout: {
                 type: 'vbox',
-                align: 'center'
+                align: 'center',
+                pack: 'center'
             },
             items: [
                 {
-                    xtype: 'panel',
-                    flex: 1,
-                    title: 'My Contacts',
-                    items: [
-                        {
-                            xtype: 'contacts.listpanel'
-                        }
-                    ]
+                    xtype: 'contacts.emptylist'
+                },
+                {
+                    xtype: 'contacts.addcontact',
+                    hidden: true
+                }
+            ],
+            dockedItems: [
+                {
+                    xtype: 'contacts.contactsimportpanel',
+                    dock: 'top',
+                    hidden: true,
+                    layout: 'hbox'
                 }
             ]
         }

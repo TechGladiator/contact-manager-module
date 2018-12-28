@@ -23,7 +23,9 @@
             "contacts.ContactPanel",
             "contacts.ListPanelNarrow",
             "contacts.InfoPanel",
-            "contacts.AddContact"
+            "contacts.AddContact",
+            "contacts.EmptyList",
+            "contacts.fillPanel"
         ]
     },
     "configAlternates": {

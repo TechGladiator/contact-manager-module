@@ -15,8 +15,7 @@
         "layout": "hbox",
         "minHeight": 200,
         "title": "Import Contacts and Organizations",
-        "titleAlign": "center",
-        "width": "100%"
+        "titleAlign": "center"
     },
     "configAlternates": {
         "container|align": "string",

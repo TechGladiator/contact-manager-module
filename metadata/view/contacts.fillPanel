@@ -1,0 +1,59 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "designer|userAlias": "contacts.fillpanel",
+        "designer|userClassName": "contacts.fillPanel",
+        "layout": "vbox",
+        "width": "100%"
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel59",
+    "designerId": "022a16a8-1356-4af0-86cb-7e700e9120c6",
+    "viewControllerInstanceId": "26cc334e-2c7f-4a58-86dc-90012efa5183",
+    "viewModelInstanceId": "13bf2eb6-e301-4d05-b4f0-85ac18440a11",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "title": "My Contacts"
+            },
+            "configAlternates": {
+                "layout|flex": "number",
+                "title": "string"
+            },
+            "name": "MyPanel59",
+            "designerId": "be7cae16-2070-45a8-bfe9-8981fb36ac18",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "contacts.listpanel",
+                    "designerId": "23e36b6a-0b35-4068-935f-0b8296086613",
+                    "masterInstanceId": "0acfa584-76d3-4fcd-91a9-511251869df9"
+                }
+            ]
+        }
+    ]
+}

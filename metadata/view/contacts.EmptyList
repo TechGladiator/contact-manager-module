@@ -1,0 +1,156 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "center",
+        "container|pack": "center",
+        "designer|userAlias": "contacts.emptylist",
+        "designer|userClassName": "contacts.EmptyList",
+        "id": "emptyList",
+        "layout": "vbox"
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "container|pack": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "id": "string",
+        "layout": "string"
+    },
+    "name": "MyPanel63",
+    "designerId": "6ca0f67d-483d-4ba3-b35c-56c215ae2964",
+    "viewControllerInstanceId": "e300da66-2ecb-4ef9-8f9c-b2501039d404",
+    "viewModelInstanceId": "79c82da3-3b36-4430-a270-449130fea6cc",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "layout": "vbox",
+                "layout|flex": 1,
+                "maxHeight": 114,
+                "padding": 10
+            },
+            "configAlternates": {
+                "container|align": "string",
+                "container|pack": "string",
+                "layout": "string",
+                "layout|flex": "number",
+                "maxHeight": "number",
+                "padding": "auto"
+            },
+            "name": "MyPanel63",
+            "designerId": "d3778b58-4e06-4f6e-9b39-cad1ff2fec83",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "addContacts",
+                        "margin": "0 10 10",
+                        "text": "Add Contacts",
+                        "width": 125
+                    },
+                    "configAlternates": {
+                        "id": "string",
+                        "margin": "auto",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton26",
+                    "designerId": "d9e9cc0d-fefc-4b13-b2cb-e423b849018a",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onAddContactsClick",
+                                "implHandler": [
+                                    "Ext.getCmp('emptyList').hide();",
+                                    "Ext.getCmp('addNewContact').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onAddContactsClick",
+                            "designerId": "78a62f16-f4f9-443f-a329-08ddba3fd336"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "importContacts",
+                        "margin": "0 10",
+                        "text": "Import Contacts",
+                        "width": 125
+                    },
+                    "configAlternates": {
+                        "id": "string",
+                        "margin": "auto",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton27",
+                    "designerId": "2d575f75-49a3-42d3-bd56-f0322f5b32a8",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onImportContactsClick",
+                                "implHandler": [
+                                    "Ext.getCmp('emptyList').hide();",
+                                    "Ext.getCmp('contactsImportPanel').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onImportContactsClick",
+                            "designerId": "72fd980b-e248-4f4b-a53b-5425b48ce6e2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

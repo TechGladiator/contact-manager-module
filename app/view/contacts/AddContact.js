@@ -30,6 +30,7 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
         type: 'contacts.addcontact'
     },
     frame: true,
+    id: 'addNewContact',
     width: 400,
     title: 'Add New Contact',
 

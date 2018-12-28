@@ -11,6 +11,7 @@
         "designer|userAlias": "contacts.addcontact",
         "designer|userClassName": "contacts.AddContact",
         "frame": true,
+        "id": "addNewContact",
         "layout": "vbox",
         "title": "Add New Contact",
         "width": 400
@@ -23,7 +24,8 @@
         "container|align": "string",
         "designer|uiInterfaceName": "string",
         "frame": "boolean",
-        "layout": "string"
+        "layout": "string",
+        "id": "string"
     },
     "name": "MyPanel46",
     "designerId": "5fd2fd05-192f-46a4-81f0-5331ad26276d",

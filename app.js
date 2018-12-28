@@ -35,7 +35,9 @@ Ext.application({
         'contacts.ContactPanel',
         'contacts.ListPanelNarrow',
         'contacts.InfoPanel',
-        'contacts.AddContact'
+        'contacts.AddContact',
+        'contacts.EmptyList',
+        'contacts.fillPanel'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',
