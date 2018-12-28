@@ -22,112 +22,164 @@
     "viewModelInstanceId": "22f648f2-0774-4484-9eeb-750b79b82f19",
     "cn": [
         {
-            "type": "Ext.button.Button",
+            "type": "Ext.panel.Panel",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
-            "userConfig": {
-                "margin": 10,
-                "text": "All Contacts",
-                "width": 125
-            },
-            "configAlternates": {
-                "margin": "auto",
-                "text": "string",
-                "width": "auto"
-            },
-            "name": "MyButton21",
-            "designerId": "818b282b-52af-4106-b66d-9a7c93a80f49",
+            "name": "MyPanel60",
+            "designerId": "e9608837-020f-47d5-a74f-83b696306eab",
             "cn": [
                 {
-                    "type": "Ext.menu.Menu",
+                    "type": "Ext.button.Button",
                     "reference": {
-                        "name": "menu",
-                        "type": "object"
+                        "name": "items",
+                        "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "width": 120
+                        "margin": 10,
+                        "text": "All Contacts",
+                        "width": 125
                     },
                     "configAlternates": {
+                        "margin": "auto",
+                        "text": "string",
                         "width": "auto"
                     },
-                    "name": "MyMenu1",
-                    "designerId": "efb58cdd-6730-40cf-8551-feebd7df28cf",
+                    "name": "MyButton21",
+                    "designerId": "818b282b-52af-4106-b66d-9a7c93a80f49",
                     "cn": [
                         {
-                            "type": "Ext.menu.Item",
+                            "type": "Ext.menu.Menu",
                             "reference": {
-                                "name": "items",
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 120
+                            },
+                            "configAlternates": {
+                                "width": "auto"
+                            },
+                            "name": "MyMenu1",
+                            "designerId": "efb58cdd-6730-40cf-8551-feebd7df28cf",
+                            "cn": [
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Menu Item"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem3",
+                                    "designerId": "e8b38766-9603-4661-8f92-57a375859caa"
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Menu Item"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem4",
+                                    "designerId": "93756bcd-ad17-4769-9dff-4d2228fe94ab"
+                                },
+                                {
+                                    "type": "Ext.menu.Item",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Menu Item"
+                                    },
+                                    "configAlternates": {
+                                        "text": "string"
+                                    },
+                                    "name": "MyMenuItem5",
+                                    "designerId": "e4e2bede-54d9-4f6a-b380-c0850a0fe2a9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "right"
+                    },
+                    "configAlternates": {
+                        "dock": "string"
+                    },
+                    "name": "MyPanel61",
+                    "designerId": "1c5ecef7-a096-4d54-b731-2eb4590d0f15",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "text": "Menu Item"
+                                "dock": "left",
+                                "html": "<div><span style=\"cursor: pointer;color: blue;\">Import</span>/<span style=\"cursor: not-allowed;color: blue;\">Export</span></div>",
+                                "padding": "20 10 0"
                             },
                             "configAlternates": {
-                                "text": "string"
+                                "dock": "string",
+                                "html": "string",
+                                "padding": "auto"
                             },
-                            "name": "MyMenuItem3",
-                            "designerId": "e8b38766-9603-4661-8f92-57a375859caa"
+                            "name": "MyPanel62",
+                            "designerId": "afe4cd72-33c2-4770-8549-14aa0b6d5b25"
                         },
                         {
-                            "type": "Ext.menu.Item",
+                            "type": "Ext.button.Button",
                             "reference": {
-                                "name": "items",
+                                "name": "dockedItems",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "text": "Menu Item"
+                                "dock": "right",
+                                "margin": 10,
+                                "text": "Add Contact",
+                                "width": 125
                             },
                             "configAlternates": {
-                                "text": "string"
+                                "margin": "auto",
+                                "text": "string",
+                                "width": "auto",
+                                "dock": "string"
                             },
-                            "name": "MyMenuItem4",
-                            "designerId": "93756bcd-ad17-4769-9dff-4d2228fe94ab"
-                        },
-                        {
-                            "type": "Ext.menu.Item",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "text": "Menu Item"
-                            },
-                            "configAlternates": {
-                                "text": "string"
-                            },
-                            "name": "MyMenuItem5",
-                            "designerId": "e4e2bede-54d9-4f6a-b380-c0850a0fe2a9"
+                            "name": "MyButton23",
+                            "designerId": "1c72c9d8-3fed-4d2d-9f04-4abc53ecbc5b"
                         }
                     ]
                 }
             ]
-        },
-        {
-            "type": "Ext.button.Button",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "margin": "10 10 0 1030",
-                "text": "Add Contact",
-                "width": 125
-            },
-            "configAlternates": {
-                "margin": "auto",
-                "text": "string",
-                "width": "auto"
-            },
-            "name": "MyButton23",
-            "designerId": "1c72c9d8-3fed-4d2d-9f04-4abc53ecbc5b"
         },
         {
             "type": "Ext.grid.Panel",

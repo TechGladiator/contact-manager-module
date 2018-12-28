@@ -34,34 +34,54 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
 
     items: [
         {
-            xtype: 'button',
-            margin: 10,
-            width: 125,
-            text: 'All Contacts',
-            menu: {
-                xtype: 'menu',
-                width: 120,
-                items: [
-                    {
-                        xtype: 'menuitem',
-                        text: 'Menu Item'
-                    },
-                    {
-                        xtype: 'menuitem',
-                        text: 'Menu Item'
-                    },
-                    {
-                        xtype: 'menuitem',
-                        text: 'Menu Item'
+            xtype: 'panel',
+            items: [
+                {
+                    xtype: 'button',
+                    margin: 10,
+                    width: 125,
+                    text: 'All Contacts',
+                    menu: {
+                        xtype: 'menu',
+                        width: 120,
+                        items: [
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            },
+                            {
+                                xtype: 'menuitem',
+                                text: 'Menu Item'
+                            }
+                        ]
                     }
-                ]
-            }
-        },
-        {
-            xtype: 'button',
-            margin: '10 10 0 1030',
-            width: 125,
-            text: 'Add Contact'
+                }
+            ],
+            dockedItems: [
+                {
+                    xtype: 'panel',
+                    dock: 'right',
+                    dockedItems: [
+                        {
+                            xtype: 'panel',
+                            dock: 'left',
+                            html: '<div><span style="cursor: pointer;color: blue;">Import</span>/<span style="cursor: not-allowed;color: blue;">Export</span></div>',
+                            padding: '20 10 0'
+                        },
+                        {
+                            xtype: 'button',
+                            dock: 'right',
+                            margin: 10,
+                            width: 125,
+                            text: 'Add Contact'
+                        }
+                    ]
+                }
+            ]
         },
         {
             xtype: 'gridpanel',
