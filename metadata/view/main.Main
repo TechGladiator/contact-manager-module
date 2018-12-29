@@ -35,67 +35,92 @@
                 "container|align": "center",
                 "container|pack": "center",
                 "layout": "vbox",
-                "layout|flex": 1,
-                "maxWidth": 1366
+                "layout|flex": 1
             },
             "configAlternates": {
                 "container|align": "string",
                 "container|pack": "string",
                 "layout": "string",
-                "layout|flex": "number",
-                "maxWidth": "number"
+                "layout|flex": "number"
             },
-            "name": "MyPanel59",
-            "designerId": "0833b886-4068-494d-8472-68b32ddd21d9",
+            "name": "MyPanel64",
+            "designerId": "d480c233-a3ce-4749-99e7-568a2bc05ed8",
             "cn": [
                 {
-                    "type": "linkedinstance",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "name": "contacts.emptylist",
-                    "designerId": "5afce3a8-c92a-44b7-8b3f-5a809afc3149",
-                    "masterInstanceId": "6ca0f67d-483d-4ba3-b35c-56c215ae2964"
-                },
-                {
-                    "type": "linkedinstance",
+                    "type": "Ext.panel.Panel",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "hidden": true
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "width": 1366
                     },
                     "configAlternates": {
-                        "hidden": "boolean"
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "maxWidth": "number",
+                        "width": "auto"
                     },
-                    "name": "contacts.addcontact",
-                    "designerId": "0fa2ef8b-dfaa-4f0f-b26b-e8d297445733",
-                    "masterInstanceId": "5fd2fd05-192f-46a4-81f0-5331ad26276d"
-                },
-                {
-                    "type": "linkedinstance",
-                    "reference": {
-                        "name": "dockedItems",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "dock": "top",
-                        "hidden": true,
-                        "layout": "hbox"
-                    },
-                    "configAlternates": {
-                        "dock": "string",
-                        "hidden": "boolean",
-                        "layout": "string"
-                    },
-                    "name": "contacts.contactsimportpanel",
-                    "designerId": "3272be25-0fe9-4938-a859-22af97411a36",
-                    "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
+                    "name": "MyPanel59",
+                    "designerId": "0833b886-4068-494d-8472-68b32ddd21d9",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "contacts.emptylist",
+                            "designerId": "5afce3a8-c92a-44b7-8b3f-5a809afc3149",
+                            "masterInstanceId": "6ca0f67d-483d-4ba3-b35c-56c215ae2964"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.addcontact",
+                            "designerId": "0fa2ef8b-dfaa-4f0f-b26b-e8d297445733",
+                            "masterInstanceId": "5fd2fd05-192f-46a4-81f0-5331ad26276d"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top",
+                                "hidden": true,
+                                "layout": "hbox"
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "hidden": "boolean",
+                                "layout": "string"
+                            },
+                            "name": "contacts.contactsimportpanel",
+                            "designerId": "3272be25-0fe9-4938-a859-22af97411a36",
+                            "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
+                        }
+                    ]
                 }
             ]
         }

@@ -37,7 +37,6 @@ Ext.define('ContactManagerModule.view.main.Main', {
         {
             xtype: 'panel',
             flex: 1,
-            maxWidth: 1366,
             layout: {
                 type: 'vbox',
                 align: 'center',
@@ -45,19 +44,31 @@ Ext.define('ContactManagerModule.view.main.Main', {
             },
             items: [
                 {
-                    xtype: 'contacts.emptylist'
-                },
-                {
-                    xtype: 'contacts.addcontact',
-                    hidden: true
-                }
-            ],
-            dockedItems: [
-                {
-                    xtype: 'contacts.contactsimportpanel',
-                    dock: 'top',
-                    hidden: true,
-                    layout: 'hbox'
+                    xtype: 'panel',
+                    flex: 1,
+                    width: 1366,
+                    layout: {
+                        type: 'vbox',
+                        align: 'center',
+                        pack: 'center'
+                    },
+                    items: [
+                        {
+                            xtype: 'contacts.emptylist'
+                        },
+                        {
+                            xtype: 'contacts.addcontact',
+                            hidden: true
+                        }
+                    ],
+                    dockedItems: [
+                        {
+                            xtype: 'contacts.contactsimportpanel',
+                            dock: 'top',
+                            hidden: true,
+                            layout: 'hbox'
+                        }
+                    ]
                 }
             ]
         }
