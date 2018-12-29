@@ -33,6 +33,7 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
     id: 'addNewContact',
     width: 400,
     title: 'Add New Contact',
+    defaultListenerScope: true,
 
     layout: {
         type: 'vbox',
@@ -272,11 +273,20 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
                 {
                     xtype: 'button',
                     flex: 1,
+                    id: 'addContactCancel',
                     margin: 10,
-                    text: 'cancel'
+                    text: 'cancel',
+                    listeners: {
+                        click: 'onAddContactCancelClick'
+                    }
                 }
             ]
         }
-    ]
+    ],
+
+    onAddContactCancelClick: function(button, e, eOpts) {
+        Ext.getCmp('addNewContact').hide();
+        Ext.getCmp('emptyList').show();
+    }
 
 });

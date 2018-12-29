@@ -828,6 +828,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "id": "addContactCancel",
                         "layout|flex": 1,
                         "margin": 10,
                         "text": "cancel"
@@ -835,10 +836,38 @@
                     "configAlternates": {
                         "layout|flex": "number",
                         "text": "string",
-                        "margin": "auto"
+                        "margin": "auto",
+                        "id": "string"
                     },
                     "name": "MyButton25",
-                    "designerId": "ec980f08-a638-47c9-98ee-93b98e874ecb"
+                    "designerId": "ec980f08-a638-47c9-98ee-93b98e874ecb",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onAddContactCancelClick",
+                                "implHandler": [
+                                    "Ext.getCmp('addNewContact').hide();",
+                                    "Ext.getCmp('emptyList').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onAddContactCancelClick",
+                            "designerId": "e3909d02-3755-43aa-89ec-dac028897385"
+                        }
+                    ]
                 }
             ]
         }
