@@ -43,7 +43,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
             flex: 1,
             frame: true,
             margin: '25 0 25 25',
-            minHeight: 250,
+            minHeight: 190,
             title: 'Contact CSV or XLS File Import',
             layout: {
                 type: 'vbox',
@@ -54,7 +54,6 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                 {
                     xtype: 'panel',
                     flex: 1,
-                    frame: true,
                     id: 'dragNDrop',
                     margin: '5 0',
                     width: '80%',
@@ -67,8 +66,8 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<h1>Drag and Drop File here</h1>',
-                            maxHeight: 50
+                            html: '<div style="border: 2px dashed #bbb;border-radius: 5px;padding: 25px;text-align: center;font: 20pt bold;color: #bbb;">Drag and Drop File here</div>',
+                            width: 334
                         }
                     ]
                 },
@@ -85,7 +84,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
             flex: 1,
             frame: true,
             margin: 25,
-            minHeight: 250,
+            minHeight: 190,
             title: 'Cloud Import',
             layout: {
                 type: 'hbox',
@@ -121,7 +120,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
             flex: 1,
             frame: true,
             margin: '25 25 25 0',
-            minHeight: 250,
+            minHeight: 190,
             title: 'Organization CSV or XLS File Import',
             layout: {
                 type: 'vbox',
@@ -132,7 +131,6 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                 {
                     xtype: 'panel',
                     flex: 1,
-                    frame: true,
                     id: 'dragNDrop1',
                     margin: '5 0',
                     width: '80%',
@@ -145,8 +143,8 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<h1>Drag and Drop File here</h1>',
-                            maxHeight: 50
+                            html: '<div style="border: 2px dashed #bbb;border-radius: 5px;padding: 25px;text-align: center;font: 20pt bold;color: #bbb;">Drag and Drop File here</div>',
+                            width: 334
                         }
                     ]
                 },

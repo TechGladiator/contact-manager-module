@@ -50,7 +50,7 @@
                 "layout": "vbox",
                 "layout|flex": 1,
                 "margin": "25 0 25 25",
-                "minHeight": 250,
+                "minHeight": 190,
                 "title": "Contact CSV or XLS File Import"
             },
             "configAlternates": {
@@ -79,8 +79,7 @@
                     "userConfig": {
                         "container|align": "center",
                         "container|pack": "center",
-                        "designer|uiInterfaceName": "default-framed",
-                        "frame": true,
+                        "designer|uiInterfaceName": "default",
                         "id": "dragNDrop",
                         "layout": "vbox",
                         "layout|flex": 1,
@@ -111,14 +110,15 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "html": "<h1>Drag and Drop File here</h1>",
+                                "html": "<div style=\"border: 2px dashed #bbb;border-radius: 5px;padding: 25px;text-align: center;font: 20pt bold;color: #bbb;\">Drag and Drop File here</div>",
                                 "layout|flex": 1,
-                                "maxHeight": 50
+                                "width": 334
                             },
                             "configAlternates": {
-                                "html": "string",
                                 "layout|flex": "number",
-                                "maxHeight": "number"
+                                "maxHeight": "number",
+                                "html": "string",
+                                "width": "auto"
                             },
                             "name": "MyPanel5",
                             "designerId": "7d6b82e3-499e-4577-b8a2-063aa1b65b8e"
@@ -163,7 +163,7 @@
                 "layout": "hbox",
                 "layout|flex": 1,
                 "margin": 25,
-                "minHeight": 250,
+                "minHeight": 190,
                 "title": "Cloud Import"
             },
             "configAlternates": {
@@ -267,7 +267,7 @@
                 "layout": "vbox",
                 "layout|flex": 1,
                 "margin": "25 25 25 0",
-                "minHeight": 250,
+                "minHeight": 190,
                 "title": "Organization CSV or XLS File Import"
             },
             "configAlternates": {
@@ -296,8 +296,7 @@
                     "userConfig": {
                         "container|align": "center",
                         "container|pack": "center",
-                        "designer|uiInterfaceName": "default-framed",
-                        "frame": true,
+                        "designer|uiInterfaceName": "default",
                         "id": "dragNDrop1",
                         "layout": "vbox",
                         "layout|flex": 1,
@@ -328,14 +327,15 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "html": "<h1>Drag and Drop File here</h1>",
+                                "html": "<div style=\"border: 2px dashed #bbb;border-radius: 5px;padding: 25px;text-align: center;font: 20pt bold;color: #bbb;\">Drag and Drop File here</div>",
                                 "layout|flex": 1,
-                                "maxHeight": 50
+                                "width": 334
                             },
                             "configAlternates": {
                                 "html": "string",
                                 "layout|flex": "number",
-                                "maxHeight": "number"
+                                "maxHeight": "number",
+                                "width": "auto"
                             },
                             "name": "MyPanel6",
                             "designerId": "3cc77262-4cd2-4088-9738-3f5b7eca7530"
