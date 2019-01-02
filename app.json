@@ -8,9 +8,7 @@
       "font-awesome"
    ],
    "indexHtmlPath": "index.html",
-   "classpath": [
-      "app"
-   ],
+   "classpath": "${app.dir}/app,${app.dir}/js/",
    "overrides": [
       "overrides"
    ],
@@ -39,6 +37,10 @@
    "js": [
       {
          "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+      },
+      {
+         "path": "js/xlsx.full.min.js",
+         "includeInBundle": true
       },
       {
          "path": "app.js",
