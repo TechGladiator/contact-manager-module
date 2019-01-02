@@ -144,7 +144,33 @@
                         "accept": "string"
                     },
                     "name": "MyFileUpload",
-                    "designerId": "8de03bb4-a45d-488c-a25f-42f265b6dedd"
+                    "designerId": "8de03bb4-a45d-488c-a25f-42f265b6dedd",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onContactFileUploadChange",
+                                "implHandler": [
+                                    "this.fakePathRemover('contactFileUpload-inputEl', value);"
+                                ],
+                                "name": "change",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onContactFileUploadChange",
+                            "designerId": "b4920119-a298-4393-8873-ef27f285bd89"
+                        }
+                    ]
                 }
             ]
         },
@@ -359,9 +385,63 @@
                         "id": "string"
                     },
                     "name": "MyFileUpload",
-                    "designerId": "bdad7cb8-4c3f-41a1-839d-00dc927bf5f6"
+                    "designerId": "bdad7cb8-4c3f-41a1-839d-00dc927bf5f6",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onOrgFileUploadChange",
+                                "implHandler": [
+                                    "this.fakePathRemover('orgFileUpload-inputEl', value);"
+                                ],
+                                "name": "change",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onOrgFileUploadChange",
+                            "designerId": "4c3b097f-60fb-425f-a779-e680792ec8f4"
+                        }
+                    ]
                 }
             ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "id",
+                    "value"
+                ],
+                "fn": "fakePathRemover",
+                "implHandler": [
+                    "value = value.substring(value.lastIndexOf(\"\\\\\") + 1);",
+                    "if (value !== \"\") {",
+                    "    document.getElementById(id).value = value;",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "fakePathRemover",
+            "designerId": "717bc13d-7e73-41cc-91fb-4f60e3332f87"
         }
     ]
 }

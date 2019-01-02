@@ -32,6 +32,7 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
     minHeight: 200,
     title: 'Import Contacts and Organizations',
     titleAlign: 'center',
+    defaultListenerScope: true,
 
     layout: {
         type: 'hbox',
@@ -75,7 +76,10 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                     xtype: 'filefield',
                     id: 'contactFileUpload',
                     width: '80%',
-                    accept: '.csv, .xls, .xlsx'
+                    accept: '.csv, .xls, .xlsx',
+                    listeners: {
+                        change: 'onContactFileUploadChange'
+                    }
                 }
             ]
         },
@@ -151,10 +155,28 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
                 {
                     xtype: 'filefield',
                     id: 'orgFileUpload',
-                    width: '80%'
+                    width: '80%',
+                    listeners: {
+                        change: 'onOrgFileUploadChange'
+                    }
                 }
             ]
         }
-    ]
+    ],
+
+    onContactFileUploadChange: function(filefield, value, eOpts) {
+        this.fakePathRemover('contactFileUpload-inputEl', value);
+    },
+
+    onOrgFileUploadChange: function(filefield, value, eOpts) {
+        this.fakePathRemover('orgFileUpload-inputEl', value);
+    },
+
+    fakePathRemover: function(id, value) {
+        value = value.substring(value.lastIndexOf("\\") + 1);
+        if (value !== "") {
+            document.getElementById(id).value = value;
+        }
+    }
 
 });
