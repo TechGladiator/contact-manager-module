@@ -156,7 +156,9 @@
                             "userConfig": {
                                 "fn": "onContactFileUploadChange",
                                 "implHandler": [
-                                    "this.fakePathRemover('contactFileUpload-inputEl', value);"
+                                    "this.fakePathRemover('contactFileUpload-inputEl', value);",
+                                    "Ext.getCmp('contactsImportPanel').hide();",
+                                    "Ext.getCmp('fieldMatcher').show();"
                                 ],
                                 "name": "change",
                                 "scope": "me"

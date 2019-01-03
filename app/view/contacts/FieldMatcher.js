@@ -28,6 +28,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
         type: 'contacts.fieldmatcher'
     },
     frame: true,
+    id: 'fieldMatcher',
     width: 520,
     layout: 'vbox',
     title: 'Import Contacts from .CSV/.XLS file',

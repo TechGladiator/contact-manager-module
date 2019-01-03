@@ -119,6 +119,25 @@
                             "name": "contacts.contactsimportpanel",
                             "designerId": "3272be25-0fe9-4938-a859-22af97411a36",
                             "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "layout|flex": 1
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean",
+                                "layout|flex": "number"
+                            },
+                            "name": "contacts.fieldmatcher",
+                            "designerId": "7fb650b3-c896-49ec-8c47-73590e1353dd",
+                            "masterInstanceId": "04d68d89-a129-4677-89a4-b784d1a824f1"
                         }
                     ]
                 }

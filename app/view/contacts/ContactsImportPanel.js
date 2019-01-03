@@ -167,6 +167,8 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
 
     onContactFileUploadChange: function(filefield, value, eOpts) {
         this.fakePathRemover('contactFileUpload-inputEl', value);
+        Ext.getCmp('contactsImportPanel').hide();
+        Ext.getCmp('fieldMatcher').show();
     },
 
     onOrgFileUploadChange: function(filefield, value, eOpts) {

@@ -10,6 +10,7 @@
         "designer|userAlias": "contacts.fieldmatcher",
         "designer|userClassName": "contacts.FieldMatcher",
         "frame": true,
+        "id": "fieldMatcher",
         "layout": "vbox",
         "title": "Import Contacts from .CSV/.XLS file",
         "width": 520
@@ -21,7 +22,8 @@
         "frame": "boolean",
         "layout": "string",
         "title": "string",
-        "width": "auto"
+        "width": "auto",
+        "id": "string"
     },
     "name": "MyPanel",
     "designerId": "04d68d89-a129-4677-89a4-b784d1a824f1",

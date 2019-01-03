@@ -22,6 +22,7 @@ Ext.define('ContactManagerModule.view.main.Main', {
         'ContactManagerModule.view.contacts.EmptyList',
         'ContactManagerModule.view.contacts.AddContact',
         'ContactManagerModule.view.contacts.ContactsImportPanel',
+        'ContactManagerModule.view.contacts.FieldMatcher',
         'Ext.panel.Panel'
     ],
 
@@ -58,6 +59,11 @@ Ext.define('ContactManagerModule.view.main.Main', {
                         },
                         {
                             xtype: 'contacts.addcontact',
+                            hidden: true
+                        },
+                        {
+                            xtype: 'contacts.fieldmatcher',
+                            flex: 1,
                             hidden: true
                         }
                     ],
