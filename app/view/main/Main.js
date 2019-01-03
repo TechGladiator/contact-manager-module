@@ -63,7 +63,6 @@ Ext.define('ContactManagerModule.view.main.Main', {
                         },
                         {
                             xtype: 'contacts.fieldmatcher',
-                            flex: 1,
                             hidden: true
                         }
                     ],

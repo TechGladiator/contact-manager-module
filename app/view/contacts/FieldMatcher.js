@@ -64,18 +64,13 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<p style="font-size: 14px;">Title</p>',
-                            margin: '0 5'
-                        },
-                        {
-                            xtype: 'panel',
-                            flex: 1,
                             html: '<p style="font-size: 14px;">First Name</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Middle Name</p>',
                             margin: '0 5'
                         },
@@ -88,13 +83,33 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
+                            html: '<p style="font-size: 14px;">Title</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Suffix</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Gender</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Name</p>',
+                            margin: '0 5'
+                        },
+                        {
+                            xtype: 'panel',
+                            flex: 1,
+                            html: '<p style="font-size: 14px;">Company Phone</p>',
                             margin: '0 5'
                         },
                         {
@@ -112,6 +127,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Personal Email</p>',
                             margin: '0 5'
                         },
@@ -142,48 +158,42 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Home Country</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
-                            html: '<p style="font-size: 14px;">Company Name</p>',
-                            margin: '0 5'
-                        },
-                        {
-                            xtype: 'panel',
-                            flex: 1,
-                            html: '<p style="font-size: 14px;">Company Phone</p>',
-                            margin: '0 5'
-                        },
-                        {
-                            xtype: 'panel',
-                            flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Company Email</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Company Street</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Company City</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Company Postal Code</p>',
                             margin: '0 5'
                         },
                         {
                             xtype: 'panel',
                             flex: 1,
+                            hidden: true,
                             html: '<p style="font-size: 14px;">Company Country</p>',
                             margin: '0 5'
                         }
@@ -207,6 +217,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -232,6 +243,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -257,6 +269,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -282,6 +295,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -307,6 +321,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -332,6 +347,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -357,6 +373,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -382,6 +399,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -407,6 +425,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',
@@ -432,6 +451,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                         {
                             xtype: 'button',
                             flex: 1,
+                            hidden: true,
                             margin: 5,
                             padding: 8.5,
                             text: 'Match to Field',

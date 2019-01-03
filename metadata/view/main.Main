@@ -128,12 +128,10 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "hidden": true,
-                                "layout|flex": 1
+                                "hidden": true
                             },
                             "configAlternates": {
-                                "hidden": "boolean",
-                                "layout|flex": "number"
+                                "hidden": "boolean"
                             },
                             "name": "contacts.fieldmatcher",
                             "designerId": "7fb650b3-c896-49ec-8c47-73590e1353dd",

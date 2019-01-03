@@ -128,28 +128,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|displayName": "title",
-                                "html": "<p style=\"font-size: 14px;\">Title</p>",
-                                "layout|flex": 1,
-                                "margin": "0 5"
-                            },
-                            "configAlternates": {
-                                "designer|displayName": "string",
-                                "html": "string",
-                                "layout|flex": "number",
-                                "margin": "auto"
-                            },
-                            "name": "MyPanel14",
-                            "designerId": "2524a253-b9cf-4091-8a6e-5bd5b7cdc65d"
-                        },
-                        {
-                            "type": "Ext.panel.Panel",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
                                 "designer|displayName": "firstName",
                                 "html": "<p style=\"font-size: 14px;\">First Name</p>",
                                 "layout|flex": 1,
@@ -173,6 +151,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "middleName",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Middle Name</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -181,7 +160,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel15",
                             "designerId": "ad2c15ff-e88a-4068-950b-2f56ac058ae3"
@@ -216,8 +196,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|displayName": "suffix",
-                                "html": "<p style=\"font-size: 14px;\">Suffix</p>",
+                                "designer|displayName": "title",
+                                "html": "<p style=\"font-size: 14px;\">Title</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
                             },
@@ -226,6 +206,30 @@
                                 "html": "string",
                                 "layout|flex": "number",
                                 "margin": "auto"
+                            },
+                            "name": "MyPanel14",
+                            "designerId": "2524a253-b9cf-4091-8a6e-5bd5b7cdc65d"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "suffix",
+                                "hidden": true,
+                                "html": "<p style=\"font-size: 14px;\">Suffix</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel17",
                             "designerId": "b0cee7e8-d18f-4e53-a76e-2c4d3b5ef46c"
@@ -239,7 +243,31 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "gender",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Gender</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto",
+                                "hidden": "boolean"
+                            },
+                            "name": "MyPanel18",
+                            "designerId": "55e7c1fe-2775-469a-81ad-2c59e6b774b8"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "companyName",
+                                "html": "<p style=\"font-size: 14px;\">Company Name</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
                             },
@@ -249,8 +277,30 @@
                                 "layout|flex": "number",
                                 "margin": "auto"
                             },
-                            "name": "MyPanel18",
-                            "designerId": "55e7c1fe-2775-469a-81ad-2c59e6b774b8"
+                            "name": "MyPanel28",
+                            "designerId": "009f90aa-5462-4ff1-8908-632dbb464c93"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "companyPhone",
+                                "html": "<p style=\"font-size: 14px;\">Company Phone</p>",
+                                "layout|flex": 1,
+                                "margin": "0 5"
+                            },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "html": "string",
+                                "layout|flex": "number",
+                                "margin": "auto"
+                            },
+                            "name": "MyPanel29",
+                            "designerId": "e24ff023-3f7e-4b65-8599-c1f42cc9ff02"
                         },
                         {
                             "type": "Ext.panel.Panel",
@@ -305,6 +355,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "personalEmail",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Personal Email</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -313,7 +364,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel21",
                             "designerId": "112bb988-7a85-465d-89e4-252dd1968824"
@@ -415,6 +467,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "homeCountry",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Home Country</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -423,7 +476,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel26",
                             "designerId": "31c87802-0727-4c6a-a373-85dd68142496"
@@ -436,51 +490,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|displayName": "companyName",
-                                "html": "<p style=\"font-size: 14px;\">Company Name</p>",
-                                "layout|flex": 1,
-                                "margin": "0 5"
-                            },
-                            "configAlternates": {
-                                "designer|displayName": "string",
-                                "html": "string",
-                                "layout|flex": "number",
-                                "margin": "auto"
-                            },
-                            "name": "MyPanel28",
-                            "designerId": "009f90aa-5462-4ff1-8908-632dbb464c93"
-                        },
-                        {
-                            "type": "Ext.panel.Panel",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "designer|displayName": "companyPhone",
-                                "html": "<p style=\"font-size: 14px;\">Company Phone</p>",
-                                "layout|flex": 1,
-                                "margin": "0 5"
-                            },
-                            "configAlternates": {
-                                "designer|displayName": "string",
-                                "html": "string",
-                                "layout|flex": "number",
-                                "margin": "auto"
-                            },
-                            "name": "MyPanel29",
-                            "designerId": "e24ff023-3f7e-4b65-8599-c1f42cc9ff02"
-                        },
-                        {
-                            "type": "Ext.panel.Panel",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
                                 "designer|displayName": "companyEmail",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Company Email</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -489,7 +500,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel30",
                             "designerId": "007a1958-9ba7-417a-87a0-b25000f5ca17"
@@ -503,6 +515,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "companyStreet",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Company Street</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -511,7 +524,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel31",
                             "designerId": "840070ba-bd04-47b3-96d5-5d721411448c"
@@ -525,6 +539,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "companyCity",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Company City</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -533,7 +548,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel32",
                             "designerId": "a9324160-91d3-4350-aff5-11e48a47a73f"
@@ -547,6 +563,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "companyPostalCode",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Company Postal Code</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -555,7 +572,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel33",
                             "designerId": "4f607685-0cb7-4aaf-8f8c-e9f189901883"
@@ -569,6 +587,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "designer|displayName": "companyCountry",
+                                "hidden": true,
                                 "html": "<p style=\"font-size: 14px;\">Company Country</p>",
                                 "layout|flex": 1,
                                 "margin": "0 5"
@@ -577,7 +596,8 @@
                                 "designer|displayName": "string",
                                 "html": "string",
                                 "layout|flex": "number",
-                                "margin": "auto"
+                                "margin": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyPanel34",
                             "designerId": "a11d3aac-f42b-4320-9434-9a9d54071b70"
@@ -638,6 +658,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -647,7 +668,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "padding": "auto",
-                                "text": "string"
+                                "text": "string",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton",
                             "designerId": "ffbce41a-ed6d-4413-a0bf-d0a239fa2e86",
@@ -728,6 +750,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -737,7 +760,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton1",
                             "designerId": "fa012815-8304-473e-8d98-89f7dc2fabe9",
@@ -818,6 +842,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -827,7 +852,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton2",
                             "designerId": "88f494df-5cf0-4d48-a030-b3e9b5cc4d2d",
@@ -908,6 +934,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -917,7 +944,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton3",
                             "designerId": "33666e65-805b-4f54-92d6-4d55980c4ea5",
@@ -998,6 +1026,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1007,7 +1036,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton4",
                             "designerId": "ebea7386-ac47-48cf-a4a6-8f075ed97750",
@@ -1088,6 +1118,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1097,7 +1128,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton5",
                             "designerId": "4b673ac9-47ba-463a-b0cb-0ee091857125",
@@ -1178,6 +1210,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1187,7 +1220,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton6",
                             "designerId": "fa5efdea-2d45-4f72-af43-57a222e90582",
@@ -1268,6 +1302,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1277,7 +1312,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton7",
                             "designerId": "d38b479f-bed6-4ecd-9f8f-dc6b1e5597ce",
@@ -1358,6 +1394,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1367,7 +1404,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton8",
                             "designerId": "8501444d-6ee6-4d0b-aadb-83e6580cbfb8",
@@ -1448,6 +1486,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "hidden": true,
                                 "layout|flex": 1,
                                 "margin": 5,
                                 "padding": 8.5,
@@ -1457,7 +1496,8 @@
                                 "layout|flex": "number",
                                 "margin": "auto",
                                 "text": "string",
-                                "padding": "auto"
+                                "padding": "auto",
+                                "hidden": "boolean"
                             },
                             "name": "MyButton9",
                             "designerId": "47eefacd-ff9d-4cd5-93ed-ad786d9aa313",
