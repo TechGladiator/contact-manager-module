@@ -30,9 +30,12 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
     frame: true,
     id: 'fieldMatcher',
     width: 520,
-    layout: 'vbox',
     title: 'Import Contacts from .CSV/.XLS file',
 
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
     items: [
         {
             xtype: 'panel',
@@ -750,6 +753,26 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
                             }
                         }
                     ]
+                }
+            ]
+        },
+        {
+            xtype: 'panel',
+            flex: 1,
+            margin: 10,
+            padding: 5,
+            items: [
+                {
+                    xtype: 'button',
+                    margin: '0 0 0 20',
+                    width: 125,
+                    text: 'Submit'
+                },
+                {
+                    xtype: 'button',
+                    margin: '0 0 0 20',
+                    width: 125,
+                    text: 'Cancel'
                 }
             ]
         }

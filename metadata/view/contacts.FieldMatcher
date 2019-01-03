@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "container|align": "center",
         "designer|uiInterfaceName": "default-framed",
         "designer|userAlias": "contacts.fieldmatcher",
         "designer|userClassName": "contacts.FieldMatcher",
@@ -23,7 +24,8 @@
         "layout": "string",
         "title": "string",
         "width": "auto",
-        "id": "string"
+        "id": "string",
+        "container|align": "string"
     },
     "name": "MyPanel",
     "designerId": "04d68d89-a129-4677-89a4-b784d1a824f1",
@@ -2561,6 +2563,71 @@
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "submitOrCancel",
+                "layout|flex": 1,
+                "margin": 10,
+                "padding": 5
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "html": "string",
+                "margin": "auto",
+                "padding": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyPanel65",
+            "designerId": "3a0b8477-b51a-4f52-afe8-10cf17bb3737",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "0 0 0 20",
+                        "text": "Submit",
+                        "width": 125
+                    },
+                    "configAlternates": {
+                        "margin": "auto",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyButton28",
+                    "designerId": "aa2693ec-b5cb-4036-865d-ef93473c53e0"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "0 0 0 20",
+                        "text": "Cancel",
+                        "width": 125
+                    },
+                    "configAlternates": {
+                        "text": "string",
+                        "margin": "auto",
+                        "width": "auto"
+                    },
+                    "name": "MyButton29",
+                    "designerId": "ce5bf26b-b444-4a7e-a0d0-def854a7448a"
                 }
             ]
         }
