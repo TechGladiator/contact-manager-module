@@ -19,22 +19,40 @@ Ext.define('ContactManagerModule.view.contacts.SummaryPanel', {
 
     requires: [
         'ContactManagerModule.view.contacts.SummaryPanelViewModel',
-        'Ext.panel.Panel'
+        'Ext.panel.Panel',
+        'Ext.button.Button'
     ],
 
     viewModel: {
         type: 'contacts.summarypanel'
     },
     frame: true,
+    id: 'summaryPanel',
     width: 550,
     title: 'Import Summary',
+    defaultListenerScope: true,
 
     items: [
         {
             xtype: 'panel',
             html: '<p><b>Total contacts in file: 1000</b></p><p><b>Contacts successfully imported: 500</b></p><p style="border-bottom: 1px solid #f1f1f1;">New additions: 500</p><p><b>Ignored contacts: 500</b></p><p>Duplicates: 0</p><p>Skipped: 0</p><p style="border-bottom: 1px solid #f1f1f1;">Invalid records: 0</p><p>Entries with empty \'Last Name\' fields are automatically ignored during import process</p>',
             padding: 15
+        },
+        {
+            xtype: 'button',
+            id: 'summaryOk',
+            margin: 15,
+            width: 75,
+            text: 'OK',
+            listeners: {
+                click: 'onSummaryOkClick'
+            }
         }
-    ]
+    ],
+
+    onSummaryOkClick: function(button, e, eOpts) {
+        Ext.getCmp('summaryPanel').hide();
+        Ext.getCmp('contactsListPanel').show();
+    }
 
 });

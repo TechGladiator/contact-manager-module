@@ -10,6 +10,7 @@
         "designer|userAlias": "contacts.summarypanel",
         "designer|userClassName": "contacts.SummaryPanel",
         "frame": true,
+        "id": "summaryPanel",
         "title": "Import Summary",
         "width": 550
     },
@@ -19,7 +20,8 @@
         "designer|userClassName": "string",
         "frame": "boolean",
         "title": "string",
-        "width": "auto"
+        "width": "auto",
+        "id": "string"
     },
     "name": "MyPanel13",
     "designerId": "29aa38cb-c46d-448e-93ea-9a42e01b0add",
@@ -45,6 +47,55 @@
             },
             "name": "MyPanel13",
             "designerId": "71e8f73e-a3d1-4974-9d67-a0901d610da3"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "summaryOk",
+                "margin": 15,
+                "text": "OK",
+                "width": 75
+            },
+            "configAlternates": {
+                "id": "string",
+                "margin": "auto",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyButton30",
+            "designerId": "1e3c80f5-c34d-4aae-ba04-8d5bd07ddc55",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSummaryOkClick",
+                        "implHandler": [
+                            "Ext.getCmp('summaryPanel').hide();",
+                            "Ext.getCmp('contactsListPanel').show();"
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onSummaryOkClick",
+                    "designerId": "07ff1c3b-df92-47b0-a39f-e2998a0aee1d"
+                }
+            ]
         }
     ]
 }

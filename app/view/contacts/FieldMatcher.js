@@ -31,6 +31,7 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
     id: 'fieldMatcher',
     width: 520,
     title: 'Import Contacts from .CSV/.XLS file',
+    defaultListenerScope: true,
 
     layout: {
         type: 'vbox',
@@ -764,18 +765,36 @@ Ext.define('ContactManagerModule.view.contacts.FieldMatcher', {
             items: [
                 {
                     xtype: 'button',
+                    id: 'fmSubmit',
                     margin: '0 0 0 20',
                     width: 125,
-                    text: 'Submit'
+                    text: 'Submit',
+                    listeners: {
+                        click: 'onFmSubmitClick'
+                    }
                 },
                 {
                     xtype: 'button',
+                    id: 'fmCancel',
                     margin: '0 0 0 20',
                     width: 125,
-                    text: 'Cancel'
+                    text: 'Cancel',
+                    listeners: {
+                        click: 'onFmCancelClick'
+                    }
                 }
             ]
         }
-    ]
+    ],
+
+    onFmSubmitClick: function(button, e, eOpts) {
+        Ext.getCmp('fieldMatcher').hide();
+        Ext.getCmp('summaryPanel').show();
+    },
+
+    onFmCancelClick: function(button, e, eOpts) {
+        Ext.getCmp('fieldMatcher').hide();
+        Ext.getCmp('emptyList').show();
+    }
 
 });

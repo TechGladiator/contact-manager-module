@@ -2597,17 +2597,46 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "id": "fmSubmit",
                         "margin": "0 0 0 20",
                         "text": "Submit",
                         "width": 125
                     },
                     "configAlternates": {
+                        "id": "string",
                         "margin": "auto",
                         "text": "string",
                         "width": "auto"
                     },
                     "name": "MyButton28",
-                    "designerId": "aa2693ec-b5cb-4036-865d-ef93473c53e0"
+                    "designerId": "aa2693ec-b5cb-4036-865d-ef93473c53e0",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onFmSubmitClick",
+                                "implHandler": [
+                                    "Ext.getCmp('fieldMatcher').hide();",
+                                    "Ext.getCmp('summaryPanel').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onFmSubmitClick",
+                            "designerId": "067491c8-6fcc-42b3-a98a-35fe6ec7d6f5"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.button.Button",
@@ -2617,17 +2646,46 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "id": "fmCancel",
                         "margin": "0 0 0 20",
                         "text": "Cancel",
                         "width": 125
                     },
                     "configAlternates": {
                         "text": "string",
+                        "id": "string",
                         "margin": "auto",
                         "width": "auto"
                     },
                     "name": "MyButton29",
-                    "designerId": "ce5bf26b-b444-4a7e-a0d0-def854a7448a"
+                    "designerId": "ce5bf26b-b444-4a7e-a0d0-def854a7448a",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onFmCancelClick",
+                                "implHandler": [
+                                    "Ext.getCmp('fieldMatcher').hide();",
+                                    "Ext.getCmp('emptyList').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onFmCancelClick",
+                            "designerId": "f226ad2c-58f3-43ad-9483-4094585ef5d0"
+                        }
+                    ]
                 }
             ]
         }

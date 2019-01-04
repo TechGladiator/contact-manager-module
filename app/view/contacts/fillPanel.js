@@ -26,6 +26,7 @@ Ext.define('ContactManagerModule.view.contacts.fillPanel', {
     viewModel: {
         type: 'contacts.fillpanel'
     },
+    id: 'contactsListPanel',
     width: '100%',
 
     layout: {

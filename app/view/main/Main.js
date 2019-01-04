@@ -23,6 +23,8 @@ Ext.define('ContactManagerModule.view.main.Main', {
         'ContactManagerModule.view.contacts.AddContact',
         'ContactManagerModule.view.contacts.ContactsImportPanel',
         'ContactManagerModule.view.contacts.FieldMatcher',
+        'ContactManagerModule.view.contacts.SummaryPanel',
+        'ContactManagerModule.view.contacts.fillPanel',
         'Ext.panel.Panel'
     ],
 
@@ -64,6 +66,10 @@ Ext.define('ContactManagerModule.view.main.Main', {
                         {
                             xtype: 'contacts.fieldmatcher',
                             hidden: true
+                        },
+                        {
+                            xtype: 'contacts.summarypanel',
+                            hidden: true
                         }
                     ],
                     dockedItems: [
@@ -72,6 +78,11 @@ Ext.define('ContactManagerModule.view.main.Main', {
                             dock: 'top',
                             hidden: true,
                             layout: 'hbox'
+                        },
+                        {
+                            xtype: 'contacts.fillpanel',
+                            dock: 'top',
+                            hidden: true
                         }
                     ]
                 }

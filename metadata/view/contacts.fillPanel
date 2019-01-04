@@ -9,6 +9,7 @@
         "container|align": "center",
         "designer|userAlias": "contacts.fillpanel",
         "designer|userClassName": "contacts.fillPanel",
+        "id": "contactsListPanel",
         "layout": "vbox",
         "width": "100%"
     },
@@ -17,7 +18,8 @@
         "designer|userAlias": "string",
         "designer|userClassName": "string",
         "layout": "string",
-        "width": "auto"
+        "width": "auto",
+        "id": "string"
     },
     "name": "MyPanel59",
     "designerId": "022a16a8-1356-4af0-86cb-7e700e9120c6",

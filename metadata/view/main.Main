@@ -136,6 +136,42 @@
                             "name": "contacts.fieldmatcher",
                             "designerId": "7fb650b3-c896-49ec-8c47-73590e1353dd",
                             "masterInstanceId": "04d68d89-a129-4677-89a4-b784d1a824f1"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.summarypanel",
+                            "designerId": "ebafa06e-6105-44e3-8d8f-ae17547c9f51",
+                            "masterInstanceId": "29aa38cb-c46d-448e-93ea-9a42e01b0add"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top",
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.fillpanel",
+                            "designerId": "94179574-3023-477b-a1a3-9bd9ab1f7f5a",
+                            "masterInstanceId": "022a16a8-1356-4af0-86cb-7e700e9120c6"
                         }
                     ]
                 }
