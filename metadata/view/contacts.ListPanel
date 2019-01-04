@@ -164,6 +164,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "dock": "right",
+                                "id": "listAddContact",
                                 "margin": 10,
                                 "text": "Add Contact",
                                 "width": 125
@@ -172,10 +173,38 @@
                                 "margin": "auto",
                                 "text": "string",
                                 "width": "auto",
-                                "dock": "string"
+                                "dock": "string",
+                                "id": "string"
                             },
                             "name": "MyButton23",
-                            "designerId": "1c72c9d8-3fed-4d2d-9f04-4abc53ecbc5b"
+                            "designerId": "1c72c9d8-3fed-4d2d-9f04-4abc53ecbc5b",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onListAddContactClick",
+                                        "implHandler": [
+                                            "Ext.getCmp('contactsListPanel').hide();",
+                                            "Ext.getCmp('addNewContact').show();"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onListAddContactClick",
+                                    "designerId": "113e056d-631c-4c46-93b9-61abf14fb3da"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -31,6 +31,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
         type: 'contacts.listpanel'
     },
     width: 1310,
+    defaultListenerScope: true,
 
     items: [
         {
@@ -75,9 +76,13 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                         {
                             xtype: 'button',
                             dock: 'right',
+                            id: 'listAddContact',
                             margin: 10,
                             width: 125,
-                            text: 'Add Contact'
+                            text: 'Add Contact',
+                            listeners: {
+                                click: 'onListAddContactClick'
+                            }
                         }
                     ]
                 }
@@ -314,6 +319,11 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                 }
             ]
         }
-    ]
+    ],
+
+    onListAddContactClick: function(button, e, eOpts) {
+        Ext.getCmp('contactsListPanel').hide();
+        Ext.getCmp('addNewContact').show();
+    }
 
 });
