@@ -144,7 +144,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "dock": "left",
-                                "html": "<div><span style=\"cursor: pointer;color: blue;\">Import</span>/<span style=\"cursor: not-allowed;color: blue;\">Export</span></div>",
+                                "html": "<div><span id=\"import\" style=\"cursor: pointer;color: blue;\">Import</span>/<span style=\"cursor: not-allowed;color: blue;\">Export</span></div>",
                                 "padding": "20 10 0"
                             },
                             "configAlternates": {
@@ -153,7 +153,35 @@
                                 "padding": "auto"
                             },
                             "name": "MyPanel62",
-                            "designerId": "afe4cd72-33c2-4770-8549-14aa0b6d5b25"
+                            "designerId": "afe4cd72-33c2-4770-8549-14aa0b6d5b25",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onPanelAfterRender",
+                                        "implHandler": [
+                                            "document.getElementById('import').addEventListener('click', () => {",
+                                            "    console.log('clicked');",
+                                            "});"
+                                        ],
+                                        "name": "afterrender",
+                                        "scope": "me"
+                                    },
+                                    "configAlternates": {
+                                        "fn": "string",
+                                        "implHandler": "code",
+                                        "name": "string",
+                                        "scope": "string"
+                                    },
+                                    "name": "onPanelAfterRender",
+                                    "designerId": "f07c66ad-26bf-4d35-9af3-15d6a0815dad"
+                                }
+                            ]
                         },
                         {
                             "type": "Ext.button.Button",

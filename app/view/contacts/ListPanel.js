@@ -70,8 +70,11 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                         {
                             xtype: 'panel',
                             dock: 'left',
-                            html: '<div><span style="cursor: pointer;color: blue;">Import</span>/<span style="cursor: not-allowed;color: blue;">Export</span></div>',
-                            padding: '20 10 0'
+                            html: '<div><span id="import" style="cursor: pointer;color: blue;">Import</span>/<span style="cursor: not-allowed;color: blue;">Export</span></div>',
+                            padding: '20 10 0',
+                            listeners: {
+                                afterrender: 'onPanelAfterRender'
+                            }
                         },
                         {
                             xtype: 'button',
@@ -320,6 +323,12 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
             ]
         }
     ],
+
+    onPanelAfterRender: function(component, eOpts) {
+        document.getElementById('import').addEventListener('click', () => {
+            console.log('clicked');
+        });
+    },
 
     onListAddContactClick: function(button, e, eOpts) {
         Ext.getCmp('contactsListPanel').hide();
