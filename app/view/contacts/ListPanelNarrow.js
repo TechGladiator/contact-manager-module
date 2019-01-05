@@ -31,6 +31,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
         type: 'contacts.listpanelnarrow'
     },
     width: 503,
+    defaultListenerScope: true,
 
     items: [
         {
@@ -59,9 +60,13 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
         },
         {
             xtype: 'button',
+            id: 'narrowListAddContact',
             margin: '10 0 0 220',
             width: 125,
-            text: 'Add Contact'
+            text: 'Add Contact',
+            listeners: {
+                click: 'onNarrowListAddContactClick'
+            }
         },
         {
             xtype: 'gridpanel',
@@ -300,6 +305,13 @@ Ext.define('ContactManagerModule.view.contacts.ListPanelNarrow', {
                 }
             ]
         }
-    ]
+    ],
+
+    onNarrowListAddContactClick: function(button, e, eOpts) {
+        Ext.getCmp('contactPanel').hide();
+        Ext.getCmp('contactsListPanel').hide();
+        Ext.getCmp('listPanel').show();
+        Ext.getCmp('addNewContact').show();
+    }
 
 });

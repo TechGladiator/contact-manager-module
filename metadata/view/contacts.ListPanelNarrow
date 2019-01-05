@@ -117,6 +117,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "id": "narrowListAddContact",
                 "margin": "10 0 0 220",
                 "text": "Add Contact",
                 "width": 125
@@ -124,10 +125,40 @@
             "configAlternates": {
                 "margin": "auto",
                 "text": "string",
-                "width": "auto"
+                "width": "auto",
+                "id": "string"
             },
             "name": "MyButton23",
-            "designerId": "bd5bfee3-a636-47f0-ad2d-6df80c38227a"
+            "designerId": "bd5bfee3-a636-47f0-ad2d-6df80c38227a",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onNarrowListAddContactClick",
+                        "implHandler": [
+                            "Ext.getCmp('contactPanel').hide();",
+                            "Ext.getCmp('contactsListPanel').hide();",
+                            "Ext.getCmp('listPanel').show();",
+                            "Ext.getCmp('addNewContact').show();"
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onNarrowListAddContactClick",
+                    "designerId": "9e909b10-e169-434d-a51a-53e38f78bd78"
+                }
+            ]
         },
         {
             "type": "Ext.grid.Panel",
