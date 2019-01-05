@@ -6,13 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "contacts.listpanelnarrow",
-        "designer|userClassName": "contacts.ListPanelViewController1"
+        "designer|userAlias": "contacts.main",
+        "designer|userClassName": "contacts.MainViewController"
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string"
     },
-    "name": "contacts.ListPanelViewController1",
-    "designerId": "357c58f5-852b-4ba8-960c-3e7b14cb4e30"
+    "designerId": "a94890e7-f4af-4bb0-bee4-e22d813e6b4f"
 }

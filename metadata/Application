@@ -15,17 +15,7 @@
         ],
         "title": "Contact Manager Module",
         "views": [
-            "main.Main",
-            "contacts.ContactsImportPanel",
-            "contacts.FieldMatcher",
-            "contacts.SummaryPanel",
-            "contacts.ListPanel",
-            "contacts.ContactPanel",
-            "contacts.ListPanelNarrow",
-            "contacts.InfoPanel",
-            "contacts.AddContact",
-            "contacts.EmptyList",
-            "contacts.fillPanel"
+            "contacts.Main"
         ]
     },
     "configAlternates": {

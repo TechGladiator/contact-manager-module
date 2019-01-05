@@ -27,23 +27,13 @@ Ext.application({
         'contacts.Store'
     ],
     views: [
-        'main.Main',
-        'contacts.ContactsImportPanel',
-        'contacts.FieldMatcher',
-        'contacts.SummaryPanel',
-        'contacts.ListPanel',
-        'contacts.ContactPanel',
-        'contacts.ListPanelNarrow',
-        'contacts.InfoPanel',
-        'contacts.AddContact',
-        'contacts.EmptyList',
-        'contacts.fillPanel'
+        'contacts.Main'
     ],
     name: 'ContactManagerModule',
     title: 'Contact Manager Module',
 
     launch: function() {
-        Ext.create('ContactManagerModule.view.main.Main');
+        Ext.create('ContactManagerModule.view.contacts.Main');
     }
 
 });
