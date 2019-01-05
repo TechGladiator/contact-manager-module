@@ -27,6 +27,9 @@ Ext.define('ContactManagerModule.view.contacts.ContactPanel', {
     viewModel: {
         type: 'contacts.contactpanel'
     },
+    id: 'contactPanel',
+    minHeight: 435,
+    minWidth: 1310,
 
     layout: {
         type: 'hbox',

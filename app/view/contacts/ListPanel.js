@@ -30,6 +30,7 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
     viewModel: {
         type: 'contacts.listpanel'
     },
+    id: 'listPanel',
     width: 1310,
     defaultListenerScope: true,
 
@@ -281,7 +282,10 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
                     sortable: false,
                     text: 'Add Columns +'
                 }
-            ]
+            ],
+            listeners: {
+                rowclick: 'onGridpanelRowClick'
+            }
         },
         {
             xtype: 'panel',
@@ -334,6 +338,11 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
     onListAddContactClick: function(button, e, eOpts) {
         Ext.getCmp('contactsListPanel').hide();
         Ext.getCmp('addNewContact').show();
+    },
+
+    onGridpanelRowClick: function(tableview, record, element, rowIndex, e, eOpts) {
+        Ext.getCmp('listPanel').hide();
+        Ext.getCmp('contactPanel').show();
     }
 
 });

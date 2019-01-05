@@ -20,6 +20,7 @@ Ext.define('ContactManagerModule.view.contacts.fillPanel', {
     requires: [
         'ContactManagerModule.view.contacts.fillPanelViewModel',
         'ContactManagerModule.view.contacts.ListPanel',
+        'ContactManagerModule.view.contacts.ContactPanel',
         'Ext.panel.Panel'
     ],
 
@@ -38,9 +39,17 @@ Ext.define('ContactManagerModule.view.contacts.fillPanel', {
             xtype: 'panel',
             flex: 1,
             title: 'My Contacts',
+            layout: {
+                type: 'vbox',
+                align: 'stretch'
+            },
             items: [
                 {
                     xtype: 'contacts.listpanel'
+                },
+                {
+                    xtype: 'contacts.contactpanel',
+                    hidden: true
                 }
             ]
         }

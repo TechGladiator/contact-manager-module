@@ -8,13 +8,15 @@
     "userConfig": {
         "designer|userAlias": "contacts.listpanel",
         "designer|userClassName": "contacts.ListPanel",
+        "id": "listPanel",
         "width": 1310
     },
     "configAlternates": {
         "designer|userAlias": "string",
         "designer|userClassName": "string",
         "height": "auto",
-        "width": "auto"
+        "width": "auto",
+        "id": "string"
     },
     "name": "MyPanel27",
     "designerId": "0acfa584-76d3-4fcd-91a9-511251869df9",
@@ -832,6 +834,31 @@
                     },
                     "name": "MyColumn22",
                     "designerId": "95293da9-cedb-4452-9b73-bbaf2f03b43f"
+                },
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onGridpanelRowClick",
+                        "implHandler": [
+                            "Ext.getCmp('listPanel').hide();",
+                            "Ext.getCmp('contactPanel').show();"
+                        ],
+                        "name": "rowclick",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onGridpanelRowClick",
+                    "designerId": "2909f274-3404-4e91-951a-5eff3dcc472d"
                 }
             ]
         },
