@@ -166,7 +166,8 @@
                                         "fn": "onPanelAfterRender",
                                         "implHandler": [
                                             "document.getElementById('import').addEventListener('click', () => {",
-                                            "    console.log('clicked');",
+                                            "    Ext.getCmp('contactsListPanel').hide();",
+                                            "    Ext.getCmp('contactsImportPanel').show();",
                                             "});"
                                         ],
                                         "name": "afterrender",

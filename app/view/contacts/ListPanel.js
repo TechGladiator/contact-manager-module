@@ -326,7 +326,8 @@ Ext.define('ContactManagerModule.view.contacts.ListPanel', {
 
     onPanelAfterRender: function(component, eOpts) {
         document.getElementById('import').addEventListener('click', () => {
-            console.log('clicked');
+            Ext.getCmp('contactsListPanel').hide();
+            Ext.getCmp('contactsImportPanel').show();
         });
     },
 
