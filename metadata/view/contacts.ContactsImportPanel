@@ -156,9 +156,7 @@
                             "userConfig": {
                                 "fn": "onContactFileUploadChange",
                                 "implHandler": [
-                                    "this.fakePathRemover('contactFileUpload-inputEl', value);",
-                                    "Ext.getCmp('contactsImportPanel').hide();",
-                                    "Ext.getCmp('fieldMatcher').show();"
+                                    "this.fakePathRemover('contactFileUpload-inputEl', value);"
                                 ],
                                 "name": "change",
                                 "scope": "me"
@@ -401,9 +399,7 @@
                             "userConfig": {
                                 "fn": "onOrgFileUploadChange",
                                 "implHandler": [
-                                    "this.fakePathRemover('orgFileUpload-inputEl', value);",
-                                    "Ext.getCmp('contactsImportPanel').hide();",
-                                    "Ext.getCmp('fieldMatcher').show();"
+                                    "this.fakePathRemover('orgFileUpload-inputEl', value);"
                                 ],
                                 "name": "change",
                                 "scope": "me"
@@ -438,7 +434,9 @@
                     "value = value.substring(value.lastIndexOf(\"\\\\\") + 1);",
                     "if (value !== \"\") {",
                     "    document.getElementById(id).value = value;",
-                    "}"
+                    "}",
+                    "Ext.getCmp('contactsImportPanel').hide();",
+                    "Ext.getCmp('fieldMatcher').show();"
                 ]
             },
             "configAlternates": {

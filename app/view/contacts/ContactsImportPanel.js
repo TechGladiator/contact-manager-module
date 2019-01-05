@@ -167,14 +167,10 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
 
     onContactFileUploadChange: function(filefield, value, eOpts) {
         this.fakePathRemover('contactFileUpload-inputEl', value);
-        Ext.getCmp('contactsImportPanel').hide();
-        Ext.getCmp('fieldMatcher').show();
     },
 
     onOrgFileUploadChange: function(filefield, value, eOpts) {
         this.fakePathRemover('orgFileUpload-inputEl', value);
-        Ext.getCmp('contactsImportPanel').hide();
-        Ext.getCmp('fieldMatcher').show();
     },
 
     fakePathRemover: function(id, value) {
@@ -182,6 +178,8 @@ Ext.define('ContactManagerModule.view.contacts.ContactsImportPanel', {
         if (value !== "") {
             document.getElementById(id).value = value;
         }
+        Ext.getCmp('contactsImportPanel').hide();
+        Ext.getCmp('fieldMatcher').show();
     }
 
 });
