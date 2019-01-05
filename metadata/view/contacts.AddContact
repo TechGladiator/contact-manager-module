@@ -808,6 +808,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "id": "addContactSave",
                         "layout|flex": 1,
                         "margin": 10,
                         "text": "Save"
@@ -815,10 +816,38 @@
                     "configAlternates": {
                         "layout|flex": "number",
                         "margin": "auto",
-                        "text": "string"
+                        "text": "string",
+                        "id": "string"
                     },
                     "name": "MyButton24",
-                    "designerId": "f6db9584-80f4-4f90-bea2-bcc5075081d0"
+                    "designerId": "f6db9584-80f4-4f90-bea2-bcc5075081d0",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onAddContactSaveClick",
+                                "implHandler": [
+                                    "Ext.getCmp('addNewContact').hide();",
+                                    "Ext.getCmp('contactsListPanel').show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onAddContactSaveClick",
+                            "designerId": "83434f57-8dfc-4391-aef8-ac932bd3879f"
+                        }
+                    ]
                 },
                 {
                     "type": "Ext.button.Button",

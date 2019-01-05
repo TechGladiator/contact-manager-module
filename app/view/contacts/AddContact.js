@@ -267,8 +267,12 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
                 {
                     xtype: 'button',
                     flex: 1,
+                    id: 'addContactSave',
                     margin: 10,
-                    text: 'Save'
+                    text: 'Save',
+                    listeners: {
+                        click: 'onAddContactSaveClick'
+                    }
                 },
                 {
                     xtype: 'button',
@@ -283,6 +287,11 @@ Ext.define('ContactManagerModule.view.contacts.AddContact', {
             ]
         }
     ],
+
+    onAddContactSaveClick: function(button, e, eOpts) {
+        Ext.getCmp('addNewContact').hide();
+        Ext.getCmp('contactsListPanel').show();
+    },
 
     onAddContactCancelClick: function(button, e, eOpts) {
         Ext.getCmp('addNewContact').hide();
