@@ -1,0 +1,295 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "contacts.infopanel",
+        "designer|userClassName": "contacts.InfoPanel",
+        "frame": true,
+        "layout": "vbox"
+    },
+    "configAlternates": {
+        "container|align": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "designer|uiInterfaceName": "string",
+        "frame": "boolean"
+    },
+    "name": "MyPanel36",
+    "designerId": "2048e2ec-690a-453e-9f3a-96e41d39f3be",
+    "viewControllerInstanceId": "370da32f-3e06-488d-838b-b016464917d5",
+    "viewModelInstanceId": "215be27a-a975-48c9-8223-f5ab8f0db828",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "contactHeader",
+                "dock": "top",
+                "height": 125,
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "dock": "string",
+                "height": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyPanel36",
+            "designerId": "71121a23-2630-40cc-b373-7d1d11bbdf24",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "firstLetterIndex",
+                        "dock": "left",
+                        "html": "<div style=\"width: 45px;height: 45px;padding: 12.5px 12.5px;border-radius: 50%;background-color: #5fa2dd;color: #0000007a;\"><h1 style=\"display: unset;\">G</h1></div>",
+                        "margin": 10,
+                        "padding": 10
+                    },
+                    "configAlternates": {
+                        "designer|displayName": "string",
+                        "dock": "string",
+                        "margin": "auto",
+                        "padding": "auto",
+                        "html": "string"
+                    },
+                    "name": "MyPanel37",
+                    "designerId": "a09bf071-8b91-43d9-883a-d2d5dd0b91ed"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "dock": "left",
+                        "layout": "vbox"
+                    },
+                    "configAlternates": {
+                        "title": "string",
+                        "container|align": "string",
+                        "dock": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyPanel39",
+                    "designerId": "466a1f2f-85b3-4c80-a3cd-c487c75dc8f5",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "left",
+                                "html": "<div style=\"font-size: x-large;\"><p>Gregg Gillson</p></div>",
+                                "maxHeight": 50,
+                                "width": 145
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "maxHeight": "number",
+                                "width": "auto",
+                                "html": "string"
+                            },
+                            "name": "MyPanel38",
+                            "designerId": "6dcd718a-9a58-4a0c-a76e-0e1957118926"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "bottom",
+                                "html": "<div><b>Rev at </b><b style=\"color: #0000ffad;\">Eabox</b></div>",
+                                "layout|flex": 1
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "html": "string",
+                                "layout|flex": "number"
+                            },
+                            "name": "MyPanel40",
+                            "designerId": "56260d46-e574-471a-beb6-0d9140361739"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "height": 40,
+                        "html": "<div style=\"margin: 10px 0 0 85px;font-size: 14px;\"><span style=\"color: #0000ffad;\">igillson0@imageshack.us</span><span> (225) 7562539 (405) 8831857</span></div>"
+                    },
+                    "configAlternates": {
+                        "dock": "string",
+                        "height": "auto",
+                        "html": "string"
+                    },
+                    "name": "MyPanel41",
+                    "designerId": "2e9ed85b-c4f4-4111-97fc-f5c5fed28d04"
+                }
+            ]
+        },
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0,
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "activeTab": "auto",
+                "layout|flex": "number"
+            },
+            "name": "MyTabPanel",
+            "designerId": "aa8f17e9-d0fd-4421-8785-68ea9c5fb409",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Summary"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel42",
+                    "designerId": "2d9aade7-1995-4edc-b9af-4bfb22683745",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig",
+                            "designerId": "917545f1-e275-4614-b402-a4c7f5781d3c"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|uiInterfaceName": "default-framed",
+                                "frame": true,
+                                "height": 130,
+                                "html": "<div style=\"margin: 15px;font-size: 16px;\"><p>9862 Mifflin Way</p><p>Oklahoma City OK, 73119</p></div>",
+                                "margin": 10,
+                                "title": "Address",
+                                "width": 400
+                            },
+                            "configAlternates": {
+                                "designer|uiInterfaceName": "string",
+                                "frame": "boolean",
+                                "height": "auto",
+                                "html": "string",
+                                "margin": "auto",
+                                "title": "string",
+                                "width": "auto"
+                            },
+                            "name": "MyPanel45",
+                            "designerId": "309f101a-6174-4d4d-904e-1a9a807a3e7b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Tasks"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel43",
+                    "designerId": "a60e741c-41ff-46b0-9f29-e7e93a5c525e",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig1",
+                            "designerId": "2d0428ca-91d9-47c9-b336-d1b57b84c1be"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Notes"
+                    },
+                    "configAlternates": {
+                        "title": "string"
+                    },
+                    "name": "MyPanel44",
+                    "designerId": "b933d5d6-2f37-4052-a1d7-eabf52ac0f8f",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "ec3d4375-21fb-4f64-ab6c-55bae73632b0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

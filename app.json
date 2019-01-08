@@ -8,9 +8,7 @@
       "font-awesome"
    ],
    "indexHtmlPath": "index.html",
-   "classpath": [
-      "app"
-   ],
+   "classpath": "${app.dir}/app,${app.dir}/js/",
    "overrides": [
       "overrides"
    ],
@@ -39,6 +37,10 @@
    "js": [
       {
          "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+      },
+      {
+         "path": "js/xlsx.full.min.js",
+         "includeInBundle": true
       },
       {
          "path": "app.js",
@@ -131,5 +133,5 @@
    "ignore": [
       "(^|/)CVS(/?$|/.*?$)"
    ],
-   "id": "15bd64c6-73c5-45f7-9d06-f46c60da44c7"
+   "id": "30bc818a-5911-4e55-ab1e-a4f8ac903fab"
 }

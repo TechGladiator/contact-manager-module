@@ -1,0 +1,101 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "contacts.summarypanel",
+        "designer|userClassName": "contacts.SummaryPanel",
+        "frame": true,
+        "id": "summaryPanel",
+        "title": "Import Summary",
+        "width": 550
+    },
+    "configAlternates": {
+        "designer|uiInterfaceName": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "frame": "boolean",
+        "title": "string",
+        "width": "auto",
+        "id": "string"
+    },
+    "name": "MyPanel13",
+    "designerId": "29aa38cb-c46d-448e-93ea-9a42e01b0add",
+    "viewControllerInstanceId": "61a3a309-8894-413e-9d1f-95aa290cfa69",
+    "viewModelInstanceId": "0b01b077-c442-428d-af32-83b061ce3515",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "summaryDisplay",
+                "html": "<p><b>Total contacts in file: 1000</b></p><p><b>Contacts successfully imported: 500</b></p><p style=\"border-bottom: 1px solid #f1f1f1;\">New additions: 500</p><p><b>Ignored contacts: 500</b></p><p>Duplicates: 0</p><p>Skipped: 0</p><p style=\"border-bottom: 1px solid #f1f1f1;\">Invalid records: 0</p><p>Entries with empty 'Last Name' fields are automatically ignored during import process</p>",
+                "padding": 15
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "html": "string",
+                "padding": "auto"
+            },
+            "name": "MyPanel13",
+            "designerId": "71e8f73e-a3d1-4974-9d67-a0901d610da3"
+        },
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "summaryOk",
+                "margin": 15,
+                "text": "OK",
+                "width": 75
+            },
+            "configAlternates": {
+                "id": "string",
+                "margin": "auto",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyButton30",
+            "designerId": "1e3c80f5-c34d-4aae-ba04-8d5bd07ddc55",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onSummaryOkClick",
+                        "implHandler": [
+                            "Ext.getCmp('summaryPanel').hide();",
+                            "Ext.getCmp('contactsListPanel').show();"
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onSummaryOkClick",
+                    "designerId": "07ff1c3b-df92-47b0-a39f-e2998a0aee1d"
+                }
+            ]
+        }
+    ]
+}

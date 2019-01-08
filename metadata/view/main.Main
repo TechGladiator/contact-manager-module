@@ -1,0 +1,181 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|initialView": true,
+        "designer|userAlias": "main.main",
+        "designer|userClassName": "main.Main",
+        "layout": "vbox"
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string",
+        "container|align": "string"
+    },
+    "name": "MyViewport",
+    "designerId": "8c6b6bff-d1be-4cf4-9f2a-f3a53392152d",
+    "viewControllerInstanceId": "a94890e7-f4af-4bb0-bee4-e22d813e6b4f",
+    "viewModelInstanceId": "58c011da-acf9-416d-8078-d2c5c1c641ce",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "container|pack": "center",
+                "layout": "vbox",
+                "layout|flex": 1
+            },
+            "configAlternates": {
+                "container|align": "string",
+                "container|pack": "string",
+                "layout": "string",
+                "layout|flex": "number"
+            },
+            "name": "MyPanel64",
+            "designerId": "d480c233-a3ce-4749-99e7-568a2bc05ed8",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "width": 1366
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "container|pack": "string",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "maxWidth": "number",
+                        "width": "auto"
+                    },
+                    "name": "MyPanel59",
+                    "designerId": "0833b886-4068-494d-8472-68b32ddd21d9",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "contacts.emptylist",
+                            "designerId": "5afce3a8-c92a-44b7-8b3f-5a809afc3149",
+                            "masterInstanceId": "6ca0f67d-483d-4ba3-b35c-56c215ae2964"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.addcontact",
+                            "designerId": "0fa2ef8b-dfaa-4f0f-b26b-e8d297445733",
+                            "masterInstanceId": "5fd2fd05-192f-46a4-81f0-5331ad26276d"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top",
+                                "hidden": true,
+                                "layout": "hbox"
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "hidden": "boolean",
+                                "layout": "string"
+                            },
+                            "name": "contacts.contactsimportpanel",
+                            "designerId": "3272be25-0fe9-4938-a859-22af97411a36",
+                            "masterInstanceId": "232be701-f715-48cb-be14-c1237a67caf2"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.fieldmatcher",
+                            "designerId": "7fb650b3-c896-49ec-8c47-73590e1353dd",
+                            "masterInstanceId": "04d68d89-a129-4677-89a4-b784d1a824f1"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.summarypanel",
+                            "designerId": "ebafa06e-6105-44e3-8d8f-ae17547c9f51",
+                            "masterInstanceId": "29aa38cb-c46d-448e-93ea-9a42e01b0add"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top",
+                                "hidden": true
+                            },
+                            "configAlternates": {
+                                "dock": "string",
+                                "hidden": "boolean"
+                            },
+                            "name": "contacts.fillpanel",
+                            "designerId": "94179574-3023-477b-a1a3-9bd9ab1f7f5a",
+                            "masterInstanceId": "022a16a8-1356-4af0-86cb-7e700e9120c6"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

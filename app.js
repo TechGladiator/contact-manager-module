@@ -20,5 +20,30 @@ Ext.Loader.setConfig({
 
 
 Ext.application({
-    name: 'ContactManagerModule'
+    models: [
+        'contacts.Model'
+    ],
+    stores: [
+        'contacts.Store'
+    ],
+    views: [
+        'main.Main',
+        'contacts.ContactsImportPanel',
+        'contacts.FieldMatcher',
+        'contacts.SummaryPanel',
+        'contacts.ListPanel',
+        'contacts.ContactPanel',
+        'contacts.ListPanelNarrow',
+        'contacts.InfoPanel',
+        'contacts.AddContact',
+        'contacts.EmptyList',
+        'contacts.fillPanel'
+    ],
+    name: 'ContactManagerModule',
+    title: 'Contact Manager Module',
+
+    launch: function() {
+        Ext.create('ContactManagerModule.view.main.Main');
+    }
+
 });

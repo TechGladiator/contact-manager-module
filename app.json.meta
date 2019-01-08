@@ -1,1 +1,1 @@
-{"_comment":"Please don't edit. This is Architect data.","name":"ContactManagerModule","resources":[],"requires":[],"theme":"theme-triton-bb647164-9b54-49f1-bb31-fcfad6925040","classpath":null,"css":[],"js":[]}
+{"_comment":"Please don't edit. This is Architect data.","name":"ContactManagerModule","resources":[],"requires":[],"theme":"theme-triton-bb647164-9b54-49f1-bb31-fcfad6925040","classpath":"${app.dir}/app,${app.dir}/js/","css":[],"js":[{"path":"js/xlsx.full.min.js","includeInBundle":true}]}

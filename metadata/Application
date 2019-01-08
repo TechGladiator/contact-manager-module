@@ -6,10 +6,34 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "ContactManagerModule"
+        "models": [
+            "contacts.Model"
+        ],
+        "name": "ContactManagerModule",
+        "stores": [
+            "contacts.Store"
+        ],
+        "title": "Contact Manager Module",
+        "views": [
+            "main.Main",
+            "contacts.ContactsImportPanel",
+            "contacts.FieldMatcher",
+            "contacts.SummaryPanel",
+            "contacts.ListPanel",
+            "contacts.ContactPanel",
+            "contacts.ListPanelNarrow",
+            "contacts.InfoPanel",
+            "contacts.AddContact",
+            "contacts.EmptyList",
+            "contacts.fillPanel"
+        ]
     },
     "configAlternates": {
-        "name": "string"
+        "name": "string",
+        "title": "string",
+        "views": "typedarray",
+        "models": "typedarray",
+        "stores": "typedarray"
     },
     "name": "Application",
     "designerId": "application"
